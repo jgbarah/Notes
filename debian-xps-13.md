@@ -37,3 +37,4 @@ I started with the [very detailed instructions by Eric Mill](https://github.com/
 ## Some more useful information
 
 * [Dell XPS 13 (2015) page for ArchLinux](https://wiki.archlinux.org/index.php/Dell_XPS_13_%282015%29).
+* [Debian on Dell XPS 13 9343](https://wiki.debian.org/InstallingDebianOn/Dell/Dell%20XPS%2013%209343).
