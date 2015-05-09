@@ -26,7 +26,11 @@ At this point I was done with Ubuntu, and started with Debian. My intention was 
 
 ## First install of Debian and UEFI trouble
 
-I started with the [very detailed instructions by Eric Mill](https://github.com/konklone/debian/blob/master/installing.md).
+I started with the [very detailed instructions by Eric Mill](https://github.com/konklone/debian/blob/master/installing.md), with some differences:
+
+* Instead of the RC netsinst boot image, I used the [current daily snapshot of the Debian installer] (https://www.debian.org/devel/debian-installer/), selecting the [image for amd64](http://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/iso-cd/) (as of today, May 9th).
+* For having access to the Internet, I used an Android phone conected to my WiFi network, and tethered to the laptop via USB.
+* After following the procedure with the netinst installation, the system (configured as UEFI without Secure Boot) didn't find the boot partition in the hard disk. I created a bootable USB stick with the [rEFInd Boot Manager](http://www.rodsbooks.com/refind/getting.html), using the [USB flash drive image](http://sourceforge.net/projects/refind/files/0.8.7/refind-flashdrive-0.8.7.zip/download). It is enough to just boot from it: it automatically recognized the boot partition installed by the Debian netinst in the hard drive, and booted it.
 
 ## Some more useful information
 
