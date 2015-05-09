@@ -22,9 +22,9 @@ Fortunately, a new version of the Dell installed came with the upgrade, which le
 
 As a side effect, Ubuntu seemed now to be completely installed and working, although I didn't check it a lot.
 
-At this point I was done with Ubuntu, and started with Debian. My intention was to install Debian testing (stretch, as of May 2015).
-
 ## First install of Debian and UEFI trouble
+
+At this point I was done with Ubuntu, and started with Debian. My intention was to install Debian testing ([stretch](https://www.debian.org/releases/stretch/), as of May 2015).
 
 I started with the [very detailed instructions by Eric Mill](https://github.com/konklone/debian/blob/master/installing.md), with some differences:
 
