@@ -26,4 +26,8 @@ At this point I was done with Ubuntu, and started with Debian. My intention was 
 
 ## First install of Debian and UEFI trouble
 
-I started with the very detailed instructions of 
+I started with the [very detailed instructions by Eric Mill](https://github.com/konklone/debian/blob/master/installing.md).
+
+## Some more useful information
+
+* [Dell XPS 13 (2015) page for ArchLinux](https://wiki.archlinux.org/index.php/Dell_XPS_13_%282015%29).
