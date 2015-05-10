@@ -37,10 +37,12 @@ I started with the [very detailed instructions by Eric Mill](https://github.com/
 
 ## Current status
 
-* UEFI boot: doesn't work, I'm booting with a USB stick with rEFInd Boot Manager
+* UEFI boot: not working, I'm booting with a USB stick with rEFInd Boot Manager
 * WiFi (Broadcom): ok
 * Sound: ok
 * Suspend: ok
+* Camera: ok
+* Microphone: not working
 
 ## Some more useful information
 
