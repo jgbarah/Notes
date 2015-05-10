@@ -35,6 +35,13 @@ I started with the [very detailed instructions by Eric Mill](https://github.com/
 * For WiFi, I run "sudo apt-get install broadocom-sta-dkms"
 * I run "sudo dpkg-reconfigure console-setup" to increase the font in the TTY (non-X consoles).
 
+## Current status
+
+* UEFI boot: doesn't work, I'm booting with a USB stick with rEFInd Boot Manager
+* WiFi (Broadcom): ok
+* Sound: ok
+* Suspend: ok
+
 ## Some more useful information
 
 * [Dell XPS 13 (2015) page for ArchLinux](https://wiki.archlinux.org/index.php/Dell_XPS_13_%282015%29).
