@@ -35,9 +35,24 @@ I started with the [very detailed instructions by Eric Mill](https://github.com/
 * For WiFi, I run "sudo apt-get install broadocom-sta-dkms"
 * I run "sudo dpkg-reconfigure console-setup" to increase the font in the TTY (non-X consoles).
 
+## Fixing UEFI booting
+
+The fix to the problem of not booting from hard drive has been renaming the Debian UEFI loader to the default name, as explained in [rEFInd (Alternative Naming Options)](http://www.rodsbooks.com/refind/installing.html#naming). What I did was in fact not renaming, but copying the Debian loader:
+
+```
+cd /boot/efi/EFI
+cp -r debian BOOT
+mv BOOT/grubx64.efi BOOT/bootx64.efi
+shutdown -h now
+```
+
+Just to be on the safe side, I entered the BIOS (F2 when the Dell logo is onscreen, while booting), and reverted to "factory defaults" the UEFI boot settings.
+
+On the next boot, it booted Debian from hard disk without a glitch.
+
 ## Current status
 
-* UEFI boot: not working, I'm booting with a USB stick with rEFInd Boot Manager
+* UEFI boot: ok
 * WiFi (Broadcom): ok
 * Sound: ok
 * Suspend: ok
@@ -49,3 +64,6 @@ I started with the [very detailed instructions by Eric Mill](https://github.com/
 * [Dell XPS 13 (2015) page for ArchLinux](https://wiki.archlinux.org/index.php/Dell_XPS_13_%282015%29).
 * [Debian on Dell XPS 13 9343](https://wiki.debian.org/InstallingDebianOn/Dell/Dell%20XPS%2013%209343).
 * [DELL xps13 2015 (9343) Linux Support](https://github.com/mpalourdio/xps13).
+
+
+
