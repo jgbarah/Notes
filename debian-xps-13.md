@@ -50,6 +50,24 @@ Just to be on the safe side, I entered the BIOS (F2 when the Dell logo is onscre
 
 On the next boot, it booted Debian from hard disk without a glitch.
 
+## HiDPI
+
+The screen has a high resolution. There are some configuration to be done so that fonts and applications in general do not appear too small in the screen.
+
+### Firefox
+
+Instructions from [Improving Linux HiDPI Support For Gnome, KDE, Xfce, Cinnamon And Firefox](http://www.makeuseof.com/tag/linux-hidpi-support-for-gnome-kde-xfce-cinnamon-and-firefox/):
+
+> entering about:config into the address bar, accepting the warning that appears, and then searching for layout.css.devPixelsPerPx. You can change the value for this parameter all the way up to 2, but I like it most at 1.5 or 1.75.
+
+I use 1.75
+
+### Gnome
+
+```
+gsettings set org.gnome.desktop.interface scaling-factor 2
+```
+
 ## Current status
 
 * UEFI boot: ok
