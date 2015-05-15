@@ -68,6 +68,8 @@ I use 1.75
 gsettings set org.gnome.desktop.interface scaling-factor 2
 ```
 
+You can  also use gnome-tweak-tool, Windows panel, HiDPI window scaling set to 2.
+
 ## Current status
 
 * UEFI boot: ok
