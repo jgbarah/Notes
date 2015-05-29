@@ -52,7 +52,7 @@ On the next boot, it booted Debian from hard disk without a glitch.
 
 ## HiDPI
 
-The screen has a high resolution. There are some configuration to be done so that fonts and applications in general do not appear too small in the screen.
+The screen has a high resolution. There is some configuration to be done so that fonts and applications in general do not appear too small in the screen.
 
 ### Firefox
 
@@ -70,6 +70,42 @@ gsettings set org.gnome.desktop.interface scaling-factor 2
 
 You can  also use gnome-tweak-tool, Windows panel, HiDPI window scaling set to 2.
 
+## Touchpad
+
+Some configuration to enable palm detection, click in pad, and soft button at the bottom; and disable tap to click, which was a bit disturbing to me. The AccelFactor is supposed to avoid repeating keys.
+
+```
+Section "InputClass"
+    Identifier "touchpad catchall"
+    Driver "synaptics"
+    MatchIsTouchpad "on"
+    # MatchDevicePath "/dev/input/event*"
+        Option "AccelFactor" "0.2"
+        #Option "RTCornerButton" "3"
+        #Option "RBCornerButton" "0"
+        #Option "LTCornerButton" "2"
+        #Option "LBCornerButton" "0"
+    	#Option "AreaTopEdge" "10"
+        # Enables Palm Detection to prevent bad clicks
+        # This seems to work on PS/2, but not on i2c
+        Option "PalmDetect" "1"
+        Option "PalmMinWidth" "8"
+        Option "PalmMinZ" "100"
+        # Enable clickpad support
+        Option "ClickPad" "true"
+        # Sets up soft buttons at the bottom
+        # First 40% - Left Button
+        # Middle 20% - Middle Button
+        # Right 40% - Right Button
+        Option "SoftButtonAreas" "60% 0 82% 0 40% 59% 82% 0"
+        # Disables Tap to click
+        Option "MaxTapTime" "0"
+        # Enable two finger scrolling
+        Option "VertTwoFingerScroll" "on"
+        Option "HorizTwoFingerScroll" "on"
+EndSection
+```
+
 ## Current status
 
 * UEFI boot: ok
@@ -78,6 +114,8 @@ You can  also use gnome-tweak-tool, Windows panel, HiDPI window scaling set to 2
 * Suspend: ok
 * Camera: ok
 * Microphone: not working
+* Touchpad: ok
+* Touchscreen: works well on booting, stops working after suspend.
 
 ## Some more useful information
 
