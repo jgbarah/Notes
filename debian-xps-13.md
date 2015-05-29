@@ -72,7 +72,7 @@ You can  also use gnome-tweak-tool, Windows panel, HiDPI window scaling set to 2
 
 ## Touchpad
 
-Some configuration to enable palm detection, click in pad, and soft button at the bottom; and disable tap to click, which was a bit disturbing to me. The AccelFactor is supposed to avoid repeating keys.
+Some configuration to enable palm detection, click in pad, and soft button at the bottom; and disable tap to click, which was a bit disturbing to me. The AccelFactor is supposed to avoid repeating keys. The configuration is based on the description found in [Touchpad Synaptics information for Arch Linux](https://wiki.archlinux.org/index.php/Touchpad_Synaptics). The file to add is /etc/X11/xorg.conf.d/50-synaptics.conf:
 
 ```
 Section "InputClass"
