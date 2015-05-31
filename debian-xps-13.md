@@ -105,6 +105,24 @@ Section "InputClass"
         Option "HorizTwoFingerScroll" "on"
 EndSection
 ```
+## Configuring for SSD
+
+My laptop enjoys a 250 GB SSD. Although I'm not completely sure that tweeking configuration makes a difference, after some days of use I finally find the time to make some configuration that should enlarge the live of the disk, after recommendations found in [SSD: how to optimize your Solid State Drive for Linux Mint 17.1, Ubuntu 14.04 and Debian](https://sites.google.com/site/easylinuxtipsproject/ssd) and elswhere.
+
+Add noatime to /etc/fstab. After it, the line for my ext4 partition is like:
+
+```
+/dev/mapper/expisito--vg-root / ext4 noatime,errors=remount-ro 0 1
+```
+
+For now, I didn't enable TRIM. fstrim does not work out of the box:
+
+```
+# fstrim -v /
+fstrim: /: the discard operation is not supported
+```
+
+I suspect this is due to the LVM / crypto layers, but I still didn't have time to research it.
 
 ## Current status
 
