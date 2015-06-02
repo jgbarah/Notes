@@ -70,6 +70,38 @@ gsettings set org.gnome.desktop.interface scaling-factor 2
 
 You can  also use gnome-tweak-tool, Windows panel, HiDPI window scaling set to 2.
 
+### TTY
+
+Fixing consoles (accessed through CTR-ALT-Fn):
+
+```
+sudo dpkg-reconfigure console-setup
+```
+
+I selected 16x32 as a font, which seems to be the largest one.
+
+### Grub boot menu
+
+Following instruction in [ HiDPI on Ubuntu with a Samsung Ativ 9](http://www.obeythetestinggoat.com/ot-hidpi-on-ubuntu-with-a-samsung-ativ-9.html). generating a new font in 30-point:
+
+```
+sudo grub-mkfont -s 30 -o /boot/grub/DejaVuSansMono.pf2 /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+[ Some errors, hopefully not a trouble, about "Unknown gsub font feature..." ]
+```
+
+Edit /etc/default/grub:
+
+```
+GRUB_FONT=/boot/grub/DejaVuSansMono.pf2
+```
+
+And update grub boot:
+
+```
+sudo update-grub
+```
+
+
 ## Touchpad
 
 Some configuration to enable palm detection, click in pad, and soft button at the bottom; and disable tap to click, which was a bit disturbing to me. The AccelFactor is supposed to avoid repeating keys. The configuration is based on the description found in [Touchpad Synaptics information for Arch Linux](https://wiki.archlinux.org/index.php/Touchpad_Synaptics). The file to add is /etc/X11/xorg.conf.d/50-synaptics.conf:
