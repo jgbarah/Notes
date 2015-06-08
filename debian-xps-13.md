@@ -101,6 +101,9 @@ And update grub boot:
 sudo update-grub
 ```
 
+## Still to do
+
+Try the scripts here to properly handle multiple monitors: https://wiki.archlinux.org/index.php/HiDPI#External_displays
 
 ## Touchpad
 
