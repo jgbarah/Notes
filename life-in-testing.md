@@ -21,3 +21,9 @@ jas@latte:~$ echo 'Hidden=true' >> ~/.config/autostart/gnome-keyring-ssh.desktop
 ```
 
 And after that, logout and login again. And done! The only trouble is that now I have to manually use ssh-add for ssh-agent to include the new keys, which are no longer stored in the Gnome keyring.
+
+## Stopping automatic download of software updates
+
+2015-08-08
+
+It seems my laptop is downloading software updates periodically. This is handy, because when I want to update the software packages, they are already there. But it is a problem when I'm connected through low bancwidth networks. So I decide to disable that. The main problem was to know whcih application was doing the updates. After considering some candidates, including packagekit and some of its related packages, it seems it is gnome-software. To disable in it, you have to tinker a bit with dconf-editor. No rocket science, just set to False (unckeck, in the graphical interface) the property "download-updates" in org.gnome.software.
