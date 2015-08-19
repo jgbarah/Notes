@@ -27,3 +27,16 @@ And after that, logout and login again. And done! The only trouble is that now I
 2015-08-08
 
 It seems my laptop is downloading software updates periodically. This is handy, because when I want to update the software packages, they are already there. But it is a problem when I'm connected through low bancwidth networks. So I decide to disable that. The main problem was to know whcih application was doing the updates. After considering some candidates, including packagekit and some of its related packages, it seems it is gnome-software. To disable in it, you have to tinker a bit with dconf-editor. No rocket science, just set to False (unckeck, in the graphical interface) the property "download-updates" in org.gnome.software.
+
+## Installing Skype (and enabling multiarch)
+
+The Skype I download from skype.com seems to be for i386 (32 arch, not 64 arch, which is the arch I have in my laptop). I follow instructions in the [Debian Wiki for Skype](https://wiki.debian.org/skype). I enable multiarch, and then install the regular Skype for Linux (the 5th step is for fixing missing dependencies, if any, the 6th is for finishing skype configuration, but I'm not sure it's needed).
+
+```
+dpkg --add-architecture i386
+apt-get update
+wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
+dpkg -i skype-install.deb
+apt-get -f install
+dpkg -i skype-install.deb
+```
