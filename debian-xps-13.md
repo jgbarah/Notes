@@ -159,6 +159,10 @@ fstrim: /: the discard operation is not supported
 
 I suspect this is due to the LVM / crypto layers, but I still didn't have time to research it.
 
+## Sound
+
+Sound input (microphone) didn't work until the kernel 4.1 came in. Now it works. I had to do nothing at all.
+
 ## Current status
 
 * UEFI boot: ok
@@ -166,7 +170,7 @@ I suspect this is due to the LVM / crypto layers, but I still didn't have time t
 * Sound: ok
 * Suspend: ok
 * Camera: ok
-* Microphone: not working
+* Microphone: ok
 * Touchpad: ok
 * Touchscreen: works well on booting, stops working after suspend.
 
