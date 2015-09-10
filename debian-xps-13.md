@@ -65,10 +65,12 @@ I use 1.75
 ### Gnome
 
 ```
-gsettings set org.gnome.desktop.interface scaling-factor 2
+gsettings set org.gnome.desktop.interface scaling-factor 0
 ```
 
 You can  also use gnome-tweak-tool, Windows panel, HiDPI window scaling set to 2.
+
+It seems 0 means "scaling should be done per monitor", which seems better than "2" (that can be used for gsettings, above, too), which means that all monitors will scale by 2.
 
 ### TTY
 
