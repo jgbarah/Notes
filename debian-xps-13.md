@@ -68,9 +68,20 @@ I use 1.75
 gsettings set org.gnome.desktop.interface scaling-factor 0
 ```
 
-You can  also use gnome-tweak-tool, Windows panel, HiDPI window scaling set to 2.
+You can  also use gnome-tweak-tool, Windows panel, HiDPI window scaling set to 0.
 
-It seems 0 means "scaling should be done per monitor", which seems better than "2" (that can be used for gsettings, above, too), which means that all monitors will scale by 2.
+It seems 0 means "scaling should be done per monitor", which seems better than "2" (that can be used for gsettings, above, too), which means that all monitors will scale by 2. This single change made Atom work like a charm...
+
+### Gimp
+
+The only trouble with Gimp seem to be the icons, fonts for menus etc. are a bit small, but usable. To fix the icons, I downloaded the theme HiDPI.tar.gz, linked from [GIMP HiDPI symbolic icon theme](https://alexskc.wordpress.com/2015/05/09/gimp-hidpi-symbolic-icon-theme/). Then, it is just a matter of installing it where Gimp may find it:
+
+```
+cd ~/.gimp-2.8/themes
+tar xvzf ~/Download/HiDPI.tar.gz
+```
+
+And then launching Gimp, and in the menu, "Edit|Preferences|Themes", select HiDPI theme, ready!
 
 ### TTY
 
