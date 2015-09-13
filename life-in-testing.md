@@ -40,3 +40,12 @@ dpkg -i skype-install.deb
 apt-get -f install
 dpkg -i skype-install.deb
 ```
+## Installing add-apt-repository
+
+This is a convenient tool to manage apt repositories. In fact, I installed the gtk version, which intalls as a dependency the command line tool:
+
+```
+apt-get install software-properties-gtk
+```
+
+That's it...
