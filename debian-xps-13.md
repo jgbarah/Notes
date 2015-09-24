@@ -114,6 +114,15 @@ And update grub boot:
 sudo update-grub
 ```
 
+## DisplayLink
+
+I own a DisplayLink USB 3.0, to connect VGA and HDMI devices as screens, and to connect to Ethernet. Ethernnet wors, but screens don't. It seems I need some driver, provided by DisplayLink for Ubuntu, but it seems, despite what I read in their [release file](http://downloads.displaylink.com/releasenotes/DisplayLink_Ubuntu_1.0.138_release-note.txt), that it does not support Linux 4.x.
+
+More info:
+
+* [Announcement of the driver](http://displaylink.org/forum/showthread.php?t=64049)
+* Some [info on how to put it to work](https://wiki.archlinux.org/index.php/DisplayLink), for ArchLinux
+
 ## Still to do
 
 Try the scripts here to properly handle multiple monitors: https://wiki.archlinux.org/index.php/HiDPI#External_displays
