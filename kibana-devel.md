@@ -60,12 +60,12 @@ In my case, the current release candidate (or almost) for ElasticSearch 5 is app
 
 After installation I get a elasticsearch directory, and I only have to run elassticsearch in it:
 
-'''
+```
 cd elasticsearch
 bin/elasticsearch
-'''
+```
 
-In my case, I'm short on disk space. ElasticSearch comes configured with a "watermark" of 90% for disk space, which means that if the disk is more than 90% busy, it won't work as it should. Fortunately, I can change this in the config/elasticsearch.yml file, just by adding the folloing lines:
+In my case, I'm short on disk space. ElasticSearch comes configured with a "watermark" of 90% for disk space, which means that if the disk is more than 90% busy, it won't work as it should. Fortunately, I can change this in the config/elasticsearch.yml file, just by adding the following lines:
 
 ```
 cluster.name: jgbarah
@@ -73,7 +73,7 @@ cluster.routing.allocation.disk.watermark.low: 95%
 cluster.routing.allocation.disk.watermark.high: 98%
 ```
 
-'cluster.name' is not really needed, but just in case... (it just gives a name to the ElasticSearch cluster)
+`cluster.name` is not really needed, but just in case... (it just gives a name to the ElasticSearch cluster)
 
 * Second option: install using npm.
 
@@ -84,13 +84,13 @@ source ../nvm/nvm.sh
 npm run elasticsearch
 ```
 
-'npm run elasticsearch' uses  is [esvm](https://github.com/simianhacker/esvm) to run ElasticSearch once it is installed, which is installed as 'esvm/dev/branch-master'. Therefore, after running that npm command, next times you want to run it without reinstalling, you can just run
+`npm run elasticsearch` uses  is [esvm](https://github.com/simianhacker/esvm) to run ElasticSearch once it is installed, which is installed as `esvm/dev/branch-master`. Therefore, after running that npm command, next times you want to run it without reinstalling, you can just run
 
 ```
 esvm/dev/branch-master/bin/elasticsearch
 ```
 
-If you need to change the ElasticSearch configuration file, as I did for the watermark stuff (see above), you can change 'esvm/dev/branch-master/config/elasticsearch.yml', but have in mind that it will be overwritten if you reinstall ElasticSearch by running npm as shown above.
+If you need to change the ElasticSearch configuration file, as I did for the watermark stuff (see above), you can change `esvm/dev/branch-master/config/elasticsearch.yml`, but have in mind that it will be overwritten if you reinstall ElasticSearch by running npm as shown above.
 
 Usually, you'll leave ElasticSearch running in one shell while you run Kibana itself in some other (See below). You can check that ElasticSearch is running by pointing your browser to http://localhost:9200 which will cause it to display something similar to:
 
