@@ -12,3 +12,8 @@ But when the field is not in any visualization, other tricks may be used. For ex
 * Now, make the filter sticky, by clicking on the pin icon, on the filter itself. This will make the filter stay even if you switch to a new dashboard in the same Kibana instance.
 * With the filter made sticky, open the dashboard in which the filter is to be inserted. The filter will be there (it was sticky, after all, for a reason).
 * Check that the filter is working, probably make the filter non-sticky (click on the pin icon again), and save the dashboard. The saved dashboard will include the filter.
+
+
+## Interesting documents to read:
+
+[https://www.elastic.co/blog/performance-considerations-elasticsearch-indexing](Performance Considerations for Elasticsearch Indexing). This document is from 2015, but still partially relevant. Have a look too at the [update for ElasticSearch 2.x](https://www.elastic.co/blog/performance-indexing-2-0), from Nov 2015.
