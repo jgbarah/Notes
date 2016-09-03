@@ -185,6 +185,50 @@ I suspect this is due to the LVM / crypto layers, but I still didn't have time t
 
 Sound input (microphone) didn't work until the kernel 4.1 came in. Now it works. I had to do nothing at all.
 
+## Bluetooth
+
+The drivers for the Broadcom 216F BT are available in the kernel, but some firmware is needed. It can be [downloaded from Miscrosoft website](http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=87a7756f-1451-45da-ba8a-55f8aa29dfee) ( Broadcom Corporation - Bluetooth Controller - Micro size USB to Bluetooth Dongle, Last Modified: 6/13/2014).
+
+Once it is downloaded, the rest is pretty simple: extracting the file with the microcode and copying it with the right format in the right place:
+
+```
+% cabextract 20662520.cab
+% sudo mkdir /usr/lib/brcm
+% sudo hex2hcd BCM20702A1_001.002.014.1443.1572.hex \
+  -o /lib/firmware/brcm/BCM20702A0-0a5c-216f.hcd
+% cd /lib/firmware/brcm
+% sudo ln -rs BCM20702A0-0a5c-216f.hcd BCM20702A1-0a5c-216f.hcd
+```
+
+And reboot (so that the kernel can load the microcode).
+
+Information obtained from [XPS13 (9343) Ubuntu Linux](http://tech.sybreon.com/2015/03/15/xps13-9343-ubuntu-linux/)
+
+## Avoid error when suspending (graphics controller slows down).
+
+The symptoms of this problem that you perceive when using the laptop are various, and it seems that not all the versions of the kernel are affected. In my case, I noticed (and fixed) it with 4.6.4, and my symptoms were that somehow randomly, usually after suspending several times, the broswers and other applicatins seemd to slow down, and at some point even changing workspaces in GNOME Shell was slooow. In some extraordinary cases, the screen became blank. But the most clear symptom comes from dmesg:
+
+```
+% dmesg
+...
+[ ....] [drm:intel_pipe_update_start [i915]] *ERROR* Potential atomic update failure on pipe A
+[similar lines]
+```
+
+The fix seems to be to pass option "i915 enable_psr=0" to the kernel when booting. This can be first tested by (when booting) entering in Grub2 in edition mode, and then adding the option to the kernel line. To make that definite, I added it to `/etc/grub/default`:
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash i915.enable_psr=0"
+```
+
+and then,
+
+```
+% sudo grub-update
+```
+
+See a [thread about this problem at ArchLinux](https://bbs.archlinux.org/viewtopic.php?id=214177).
+
 ## Current status
 
 * UEFI boot: ok
@@ -195,6 +239,7 @@ Sound input (microphone) didn't work until the kernel 4.1 came in. Now it works.
 * Microphone: ok
 * Touchpad: ok
 * Touchscreen: works well on booting, stops working after suspend.
+
 
 ## Some more useful information
 
