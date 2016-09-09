@@ -204,6 +204,10 @@ And reboot (so that the kernel can load the microcode).
 
 Information obtained from [XPS13 (9343) Ubuntu Linux](http://tech.sybreon.com/2015/03/15/xps13-9343-ubuntu-linux/)
 
+## Power saving
+
+It is recommmended to install the Debian tlp package, to save battery power.
+
 ## Avoid error when suspending (graphics controller slows down).
 
 The symptoms of this problem that you perceive when using the laptop are various, and it seems that not all the versions of the kernel are affected. In my case, I noticed (and fixed) it with 4.6.4, and my symptoms were that somehow randomly, usually after suspending several times, the broswers and other applicatins seemd to slow down, and at some point even changing workspaces in GNOME Shell was slooow. In some extraordinary cases, the screen became blank. But the most clear symptom comes from dmesg:
@@ -243,6 +247,7 @@ See a [thread about this problem at ArchLinux](https://bbs.archlinux.org/viewtop
 
 ## Some more useful information
 
+* [Dell XPS 13 9343 page in DebianOn](https://wiki.debian.org/InstallingDebianOn/Dell/Dell%20XPS%2013%209343)
 * [Dell XPS 13 (2015) page for ArchLinux](https://wiki.archlinux.org/index.php/Dell_XPS_13_%282015%29).
 * [Debian on Dell XPS 13 9343](https://wiki.debian.org/InstallingDebianOn/Dell/Dell%20XPS%2013%209343).
 * [DELL xps13 2015 (9343) Linux Support](https://github.com/mpalourdio/xps13).
