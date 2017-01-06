@@ -115,6 +115,7 @@ This is simple stuff (remember to activate nvm in the shell before running the c
 
 ```
 source ../nvm/nvm.sh
+nvm install "$(cat .node-version)"
 npm start
 ```
 
