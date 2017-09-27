@@ -132,3 +132,35 @@ apt-get install software-properties-gtk
 ```
 
 That's it...
+
+## Problems with access to screen by root under Wayland
+
+It seems Wayland applications don't have access to the X11 auth methods.
+The diagnosis for this problem is for example clear in the case of synaptic:
+
+```bash
+$ synaptic-pkexec
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+
+(synaptic:5209): Gtk-WARNING **: cannot open display: :0
+```
+
+To fix it, of the several solutions that are proposed out there,
+I've decided to use one that allows me to follow on with
+GNOME Wayland (instead of reverting to GNOME X11).
+It is based on adding a description for an autostart application:
+create a file `.config/autostart/xhost.desktop`:
+
+```
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/xhost +si:localuser:root
+Hidden=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+Name[en]=Xhost for local root
+Name=Xhost for local root
+```
+
+Done... You need to log out and log in back to test it.
