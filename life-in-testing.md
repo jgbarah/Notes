@@ -17,10 +17,93 @@ Fortunately, I fond a [page describing how to disable ssh-agent service for gnom
 ```
 jas@latte:~$ mkdir ~/.config/autostart
 jas@latte:~$ cp /etc/xdg/autostart/gnome-keyring-ssh.desktop ~/.config/autostart/
-jas@latte:~$ echo 'Hidden=true' >> ~/.config/autostart/gnome-keyring-ssh.desktop 
+jas@latte:~$ echo 'Hidden=true' >> ~/.config/autostart/gnome-keyring-ssh.desktop
 ```
 
 And after that, logout and login again. And done! The only trouble is that now I have to manually use ssh-add for ssh-agent to include the new keys, which are no longer stored in the Gnome keyring.
+
+### Update on 2017-09-27
+
+I upgraded my testing box to buster, and ssh-add stopped working.
+After some tinkering,
+it seems that is due to a certain combination of GNOME using Wayland,
+which triggers a kind of a bug.
+The issue can be fixed with some systemd user scripts,
+which were a bit tricky until I got nailed down.
+
+The problem is that `ssh-add` (nor `ssh`) does not find `ssh-agent`.
+The reason is that the shell variable `SSH_AUTH_SOCK` has the wrong
+value, `/run/user/[uid]/keyring/ssh`,
+apparently set by `gnome-keyring`,
+although it is not creating it (because it is disabled, see above).
+
+The fix is described in
+[this answer to "Where does gnome-keyring set $SSH_AUTH_SOCK?"](https://unix.stackexchange.com/a/360309/119113)
+(the problem is described in that same question):
+
+> Gnome-Session has a hardcoded override for `SSH_AUTH_SOCK`
+under wayland for some reason.
+See the [following commit](https://github.com/GNOME/gnome-session/commit/a8896ccad65583885735a04205351f48a42f29ae).
+>
+> The workaround? Set an environment variable to disable this behavior: `GSM_SKIP_SSH_AGENT_WORKAROUND=1`. This short-circuits the environment setting code.
+
+It is important to notice that the fix to
+`~/.config/autostart/gnome-keyring-ssh.desktop`, described above,
+is still needed.
+
+For implementing the workaround, I had to learn a bit of systemd user scripts.
+Making a long story short, I had to:
+
+* Create the `.config/systemd/user` directory, for systemd user scripts.
+
+* In it, create the file `ssh-agent.service`,
+with the following content:
+
+```
+[Unit]
+Description=SSH Agent
+IgnoreOnIsolate=true
+
+[Service]
+Type=forking
+Environment=SSH_AUTH_SOCK=%t/ssh-agent.socket
+ExecStart=/usr/bin/ssh-agent -a $SSH_AUTH_SOCK
+ExecStartPost=/bin/bash -c "/bin/systemctl --user set-environment SSH_AUTH_SOCK=$SSH_AUTH_SOCK GSM_SKIP_SSH_AGENT_WORKAROUND=1"
+
+[Install]
+WantedBy=default.target
+```
+
+To test it, you can just start it manually:
+
+```bash
+$ systemctl --user start ssh-agent
+```
+
+That sets the right `SSH_AUTH_SOCK`, but in its own shell,
+so to test it you need to manually set the right value for it:
+
+```bash
+$ SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket ssh-add
+```
+
+If you are asked for your passwd for `ssh-add`, you're in the right way.
+But I was still not done.
+It is not enough to create the above file.
+For the new service to be started upon user login,
+I still needed to "enable" the service:
+
+```bash
+$ systemctl --user enable ssh-agent
+```
+
+That creates a new directory, `.config/systemd/default.target.wants`,
+and a link in it, `ssh-agent.service`,
+pointing to the above file.
+
+And now, that's it. Log out, log in, and I could happily run
+and use `ssh-add` and then `ssh`.
+
 
 ## Stopping automatic download of software updates
 
