@@ -13,6 +13,14 @@ But when the field is not in any visualization, other tricks may be used. For ex
 * With the filter made sticky, open the dashboard in which the filter is to be inserted. The filter will be there (it was sticky, after all, for a reason).
 * Check that the filter is working, probably make the filter non-sticky (click on the pin icon again), and save the dashboard. The saved dashboard will include the filter.
 
+## Listing indexes, aliases
+
+Get all indexes and all aliases in ElasticSearch:
+
+```
+$ curl -XGET http://localhost:9200/_cat/indices?v
+$ curl -XGET http://localhost:9200/_cat/aliases?v
+```
 
 ## Interesting documents to read:
 
