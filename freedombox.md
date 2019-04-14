@@ -120,6 +120,45 @@ To test it over time (every 5 sec. in this case):
 $ while sleep 5; do cat /sys/class/thermal/thermal_zone*/temp; done
 ```
 
+## Installing a USB SSD
+
+I have a SSD with a USB connector. I'm going to install it to extend
+the storage available in my Raspberry Pi. The process is simple.
+
+First of all, I connect the disk, to know its id:
+
+```
+$ sudo blkid
+```
+
+The relevant field is `UUID`. I used it for a new entry in `/etc/fstab`:
+
+```
+UUID="xxx-63a7d4414402" /media/data-jgbarah auto rw,user,auto 0 0
+```
+
+This is all you need...
+
+## Using rsync for backing up my laptop
+
+I decided to use rsync for backing up my laptip in the Raspberry Pi with Freedom Box installed. This was easy...
+
+In the Raspberry Pi, I copy my ssh public key to the `/root` directory
+(well, in fact I copied all the `.ssh` directory), and installed `rsync`:
+
+```
+$ cd
+$ sudo cp -r .ssh /root
+$ sudo apt-get install rsync
+```
+
+Then, in the laptop I can run rsync as (for example):
+
+```
+$ rsync -va --one-file-system --info=progress2,stats2 --delete \
+  /home root@freedombox.local:/media/backups
+```
+
 ## Some useful links
 
 * [FreedomBox project](https://freedombox.org/)
