@@ -149,3 +149,6 @@ maybe a bit different from what the issue mentioned above found:
 [  266.332181] iwlwifi 0000:02:00.0: Start IWL Error Log Dump:
 ...
 ```
+
+This seems to happen only when conneted to WiFi networks using the 5 GHz
+band, so a temporary fix is to connect only to 2.4 GHz bands...
