@@ -85,3 +85,33 @@ Then, just enable it:
 ```
 % sudo systemctl enable suspend-sedation
 ```
+
+## Pending issues
+
+I see restarts of the WiFi driver from time to time
+(apparently, after periods of intense WiFi use).
+The sympthom is continuous "ieee80211 phy0: Hardware reset was requested"
+messages:
+
+```
+[ 1098.438897] ieee80211 phy0: Hardware restart was requested
+[ 1102.911225] iwlwifi 0000:02:00.0: Error sending STATISTICS_CMD: time out after 2000ms.
+[ 1102.911240] iwlwifi 0000:02:00.0: Current CMD queue read_ptr 93 write_ptr 94
+[ 1102.911404] iwlwifi 0000:02:00.0: HW error, resetting before reading
+[ 1102.918383] iwlwifi 0000:02:00.0: Start IWL Error Log Dump:
+[ 1102.918408] iwlwifi 0000:02:00.0: Status: 0x00000100, count: -560800355
+[ 1102.918421] iwlwifi 0000:02:00.0: Loaded firmware version: 38.755cfdd8.0
+[ 1102.918434] iwlwifi 0000:02:00.0: 0x98CB9419 | ADVANCED_SYSASSERT
+...
+[ 1102.919062] ieee80211 phy0: Hardware restart was requested
+...
+```
+
+This seems to be a [known problem affecting many computers with the same WiFi driver](https://bugzilla.kernel.org/show_bug.cgi?id=201713), Wireless-AC 9260.
+
+Apparently, it is fixed in kernel 4.20 (current one in testing is 4.19),
+with firmware `-41.ucode` (current one for testing are `-41.ucode`
+and `-38.ucode`, in package firmware-iwlwifi).
+
+I think my only chance is, for now, to wait until 4.20 is in Debian...
+
