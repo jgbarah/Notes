@@ -119,3 +119,33 @@ and `-38.ucode`, in package firmware-iwlwifi).
 
 I think my only chance is, for now, to wait until 4.20 is in Debian...
 
+#### Further notes on this issue
+
+Maybe I'm having some other problem. The trace I get with dmesg is
+maybe a bit different from what the issue mentioned above found:
+
+```
+[   77.233370] iwlwifi 0000:02:00.0: firmware: direct-loading firmware iwlwifi-9260-th-b0-jf-b0-38.ucode
+[   77.234358] iwlwifi 0000:02:00.0: loaded firmware version 38.755cfdd8.0 op_mode iwlmvm
+[   77.276269] Adding 16691196k swap on /dev/mapper/librito--vg-swap_1.  Priority:-2 extents:1 across:16691196k SSFS
+[   77.287562] iwlwifi 0000:02:00.0: Detected Intel(R) Dual Band Wireless AC 9260, REV=0x324
+[   77.336160] iwlwifi 0000:02:00.0: base HW address: 18:56:80:ee:67:22
+...
+[   83.325684] iwlwifi 0000:02:00.0: Unhandled alg: 0x707
+...
+[  262.735955] iwlwifi 0000:02:00.0: Error sending SCAN_CFG_CMD: time out after 2000ms.
+[  262.735973] iwlwifi 0000:02:00.0: Current CMD queue read_ptr 194 write_ptr 195
+[  262.736138] iwlwifi 0000:02:00.0: HW error, resetting before reading
+[  262.743138] iwlwifi 0000:02:00.0: Start IWL Error Log Dump:
+[  262.743154] iwlwifi 0000:02:00.0: Status: 0x00000100, count: -560800353
+[  262.743162] iwlwifi 0000:02:00.0: Loaded firmware version: 38.755cfdd8.0
+[  262.743171] iwlwifi 0000:02:00.0: 0x98CB941A | ADVANCED_SYSASSERT
+...
+[  262.743703] iwlwifi 0000:02:00.0: 0x48E61756 | isr status reg
+[  262.743754] ieee80211 phy0: Hardware restart was requested
+[  266.323698] iwlwifi 0000:02:00.0: Queue 0 is inactive on fifo 2 and stuck for 2500 ms. SW [113, 114] HW [162, 162] FH TRB=0x0a5a5a5a2
+[  266.324963] iwlwifi 0000:02:00.0: Hardware error detected. Restarting.
+[  266.325127] iwlwifi 0000:02:00.0: HW error, resetting before reading
+[  266.332181] iwlwifi 0000:02:00.0: Start IWL Error Log Dump:
+...
+```
