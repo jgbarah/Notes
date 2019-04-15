@@ -88,6 +88,8 @@ Then, just enable it:
 
 ## Pending issues
 
+### 2019-05-15
+
 I see restarts of the WiFi driver from time to time
 (apparently, after periods of intense WiFi use).
 The sympthom is continuous "ieee80211 phy0: Hardware reset was requested"
@@ -106,6 +108,8 @@ messages:
 [ 1102.919062] ieee80211 phy0: Hardware restart was requested
 ...
 ```
+
+In some cases, this leads to the WiFi driver stop working, and to kernel panics.
 
 This seems to be a [known problem affecting many computers with the same WiFi driver](https://bugzilla.kernel.org/show_bug.cgi?id=201713), Wireless-AC 9260.
 

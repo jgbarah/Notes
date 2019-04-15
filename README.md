@@ -2,8 +2,10 @@
 
 Related to Debian:
 
-* [Installing Debian testing (stretch) in a Dell XPS 13 Developer Edition (2015)](debian-xps-13.md)
+* [Installing Debian testing (buster) in a Slimbook Katana II](debian-katana-2.md)
+* [Installing and managing Freedom Box](freedombox.md)
 * [Life in Debian testing](life-in-testing.md)
+* [Installing Debian testing (stretch) in a Dell XPS 13 Developer Edition (2015)](debian-xps-13.md) (no longer maintained) 
 
 ElasticSearch, Kibana...:
 
