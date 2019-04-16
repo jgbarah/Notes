@@ -290,6 +290,16 @@ In the lines above, gid=1000 and uid=1000 should correspond to the gid and id
 of the user who mounts the partition (so that permissions apply).
 You can know which ones your user has by running `id` in a shell.
 
+The files `/home/jgb/.smbcredentials/jgb` and `/home/jgb/.smbcredentials/common`
+are credential files for jgb and common Samba users.
+Both files should be readable for the user mounting the partition,
+and for nobody else. The format of both files is like this:
+
+```
+username=common
+password=XXXXX
+```
+
 Then, I installed the `cifs-utils` package,
 and created the directories to mount:
 
