@@ -152,3 +152,10 @@ maybe a bit different from what the issue mentioned above found:
 
 This seems to happen only when conneted to WiFi networks using the 5 GHz
 band, so a temporary fix is to connect only to 2.4 GHz bands...
+To know that the proble is not appearing, just run:
+
+```
+sudo dmesg | grep restart
+```
+
+If no new line appears, this problem is now showing up.
