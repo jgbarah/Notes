@@ -105,7 +105,7 @@ Aug  4 18:56:07 freedombox kernel: [17713.777695] thermal thermal_zone0: critica
 
 So, the problem is the CPU gets too hot. Maybe linked to Syncthing activity (it seems it uses the CPU pretty hard), but the real problem is thermal. So, I removed the top of the case, and tried with putting the device in a different, hopefully cooler, location. With 40 C outside, about 32 C at home, that's not easy, though... Let's see if that works.
 
-I'm also learned to monitor temperature:
+I've also learned to monitor temperature:
 
 ```bash
 $ cat /sys/class/thermal/thermal_zone*/temp
@@ -158,6 +158,157 @@ Then, in the laptop I can run rsync as (for example):
 $ rsync -va --one-file-system --info=progress2,stats2 --delete \
   /home root@freedombox.local:/media/backups
 ```
+
+## Installing a Samba server
+
+For sharing data with Linux, Windows and other devices,
+I install and configure Samba. Most of the procedure I
+followed is described in
+[How To Set Up a Samba Share For A Small Organization on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-samba-share-for-a-small-organization-on-ubuntu-16-04).
+
+
+```
+$ sudo apt-get install samba
+$ sudo systemctl stop nmbd.service
+$ sudo systemctl disable nmbd.service
+$ sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.orig
+$ sudo vi /etc/samba/smb.conf
+```
+
+To test the smb.conf file just created:
+
+```
+$ testparm
+```
+
+In the output, you should read "Loaded services file OK".
+
+Now, let's create a directory to export:
+
+```
+$ sudo mkdir /media/data-jgbarah/samba/
+$ sudo chown :sambashare /media/data-jgbarah/samba/
+```
+
+To create a directory for an existing user:
+
+```
+$ sudo mkdir /media/data-jgbarah/samba/jgb
+$ sudo usermod -a -G sambashare jgb
+$ sudo chown jgb:sambashare /media/data-jgbarah/samba/jgb/
+$ sudo chmod 2770 /media/data-jgbarah/samba/jgb/
+$ sudo smbpasswd -a jgb
+$ sudo smbpasswd -e jgb
+```
+
+To create two directories for a new, non existing user,
+which is created too (one directory, common, read-only,
+and another one, backups, read-write):
+
+```
+$ sudo mkdir /media/data-jgbarah/samba/common
+$ sudo adduser --home /media/data-jgbarah/samba/common --no-create-home \
+  --shell /usr/sbin/nologin --ingroup sambashare common
+$ sudo chown common:sambashare /media/data-jgbarah/samba/common/
+$ sudo chmod 2770 /media/data-jgbarah/samba/common/
+$ sudo smbpasswd -a common
+$ sudo smbpasswd -e common
+$ sudo mkdir /media/data-jgbarah/samba/backups
+$ sudo chown common:sambashare /media/data-jgbarah/samba/backups/
+$ sudo chmod 2770 /media/data-jgbarah/samba/backups/
+```
+
+Now, create a group for administering Samba:
+
+```
+$ sudo groupadd sambadm
+$ sudo usermod -G sambadm jgb
+```
+
+And finally, run the Samba server,
+and open the corresponding service in the firewall
+
+```
+$ sudo systemctl start smbd.service
+$ sudo firewall-cmd --permanent --zone=internal --add-service=samba
+$ sudo firewall-cmd --zone=internal --add-service=samba
+```
+
+The complete `smb.conf` file will look like:
+
+```
+[global]
+        server string = samba.freebox.local
+        server role = standalone server
+        interfaces = lo enxb827eb1609dc
+        bind interfaces only = yes
+        disable netbios = yes
+        smb ports = 445
+        log file = /var/log/samba/smb.log
+        max log size = 10000
+
+[jgb]
+        path = /media/data-jgbarah/samba/jgb
+        browseable = no
+        read only = no
+        force create mode = 0660
+        force directory mode = 2770
+        valid users = jgb @sambadm
+
+[common]
+        path = /media/data-jgbarah/samba/common
+        browseable = yes
+        read only = yes
+        force create mode = 0660
+        force directory mode = 2770
+        valid users = common @sambadm
+
+[backups]
+        path = /media/data-jgbarah/samba/backups
+        browseable = yes
+        read only = no
+        force create mode = 0660
+        force directory mode = 2770
+        valid users = common @sambadm
+```
+
+### Mounting Samba directories in my Debian box
+
+For testing the Samba volumes exported by the Freedom Box,
+I followed the following procedure.
+
+First, I added some lines to /etc/fstab:
+
+```
+# Freedombox Samba shares
+//freedombox.local/jgb /media/samba/jgb cifs vers=2.0,credentials=/home/jgb/.smbcredentials/jgb,iocharset=utf8,gid=1000,uid=1000,file_mode=0777,dir_mode=0777,noauto,user 0 0
+//freedombox.local/common /media/samba/common cifs vers=2.0,credentials=/home/jgb/.smbcredentials/common,iocharset=utf8,gid=1000,uid=1000,file_mode=0777,dir_mode=0777,noauto,user 0 0
+//freedombox.local/backups /media/samba/backups cifs vers=2.0,credentials=/home/jgb/.smbcredentials/common,iocharset=utf8,gid=1000,uid=1000,file_mode=0777,dir_mode=0777,noauto,user 0 0
+```
+
+In the lines above, gid=1000 and uid=1000 should correspond to the gid and id
+of the user who mounts the partition (so that permissions apply).
+You can know which ones your user has by running `id` in a shell.
+
+Then, I installed the `cifs-utils` package,
+and created the directories to mount:
+
+```
+$ sudo apt-get install cifs-utils -y
+$ sudo mkdir /media/samba
+$ sudo mkdir /media/samba/jgb
+$ sudo mkdir /media/samba/common
+$ sudo mkdir /media/samba/backups
+```
+
+Now, I can mount any of this directories just by, for example:
+
+```
+$ mount /media/samba/jgb
+```
+
+I can also mount files from the GNOME Files application,
+in the "Other locations" menu option.
 
 ## Some useful links
 
