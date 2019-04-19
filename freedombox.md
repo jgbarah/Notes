@@ -320,6 +320,38 @@ $ mount /media/samba/jgb
 I can also mount files from the GNOME Files application,
 in the "Other locations" menu option.
 
+### Letting Samba serve my Syncthing files
+
+I'm backing up some of my devices (phones, etc.) via Syncthing to
+my Freedom Box. I wanted to browse the backed up files easily from
+all my devices, and I decided to give Sama a try for that.
+It proved very easy to configure.
+
+First, I added the user syncthing to the group sambashare,
+so that Syncthing can write to directories owner by group sambashare:
+
+
+```
+$ sudo usermod -a -G sambashare syncthing
+```
+
+After that, I rebooted my Freedom Box, just to make sure
+Syncthing was running under this secondary group
+(I'm not sure this is really needed, but just in case...).
+
+Then, I created a directory to share in my device.
+When prompted in the Freedom Box web interface for Syncthing
+to allow that directory to be shared,
+I changed the directory that it was offering by default to
+one under my user directory exported by Samba
+(`jgb`, see configuration above):
+`/media/data-jgbarah/samba/jgb/camera-mobile'
+
+And that's all, Syncthing just did the rest. I a little while,
+I had a copy of my files in the Freedom Box, and could
+browse it from my other devices, including my Debian laptop,
+just by mounting the corresponding Samba share.
+
 ## Some useful links
 
 * [FreedomBox project](https://freedombox.org/)
