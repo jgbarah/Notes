@@ -33,7 +33,45 @@ Fortunately, [the fix is easy](https://unix.stackexchange.com/questions/410854/t
 % sudo apt-get install intel-microcode
 ```
 
+
+## Improving battery control
+
+I found out about
+[Slimbook Battery 3](https://slimbook.es/en/tutoriales/aplicaciones-slimbook/398-slimbook-battery-3-application-for-optimize-battery-of-your-laptop). I installed it, and it seems the battery like is increased by about 25%-30% (not exact accounts) wiht the default values for the balanced working model.
+
+Installing it in Debian buster is a bit tricky, because python-appindicator is no longer available as a package. So, I used two packages from Debian strech: [python-appindicator_0.4.92-4_amd64.deb](http://ftp.de.debian.org/debian/pool/main/liba/libappindicator/python-appindicator_0.4.92-4_amd64.deb) and [libappindicator1_0.4.92-4_amd64.deb](http://ftp.de.debian.org/debian/pool/main/liba/libappindicator/libappindicator1_0.4.92-4_amd64.deb).
+
+So, I downloaded both of them. Then, I added the Slimbook PPA repository to my list of apt repositories. And finally, I apt-installed some stuff that are dependencies for the `libappindicator1` and `python-appindicator` packages, those packages themselves (via `dpkg`) and finally `slimbookbattery`:
+
+```
+% sudo add-apt-repository "deb http://ppa.launchpad.net/slimbook/slimbook/ubuntu disco main"
+% sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BE80F1EEB3838E61E42091B378A22399981017FC
+% sudo apt-get update
+% sudo apt-get install libdbusmenu-gtk4 libindicator7 python-gobject
+% sudo dpkg -i libappindicator1_0.4.92-4_amd64.deb python-appindicator_0.4.92-4_amd64.deb
+% sudo apt-get install slimbookbattery
+```
+
+It is important to follow this order, otherwise you can get inconsistent states in installed packages (that can be easily solved with `sudo apt --fix-broken install`, but anyway...).
+
+After this, I run the configuration GUI, by searching the apps, and launching the one with the SlimbookBattery and the gear wheel.
+
+After saving it, I see errors in the console like:
+
+```
+sh: 1: prime-select: not found
+```
+
+but it seems that's only a warning because I don't have NVIDIA graphics cards in my Katana II. Which is fine.
+
+Now, I'm seeing an increasy in battery life of about 25%-30%. Nice.
+
+
 ## Suspension problem
+
+[ It seems this is no longer needed, after I installed and configured
+`slimbookbattery`, see above. It includes exactly the same file
+described below ;-) However, I'm letting the instructions here, just in case. ]
 
 When suspending, batteries seem to drain rather quickly.
 This can be fixed by making the laptop hibernate after staying
@@ -85,6 +123,7 @@ Then, just enable it:
 ```
 % sudo systemctl enable suspend-sedation
 ```
+
 
 ## Pending issues
 
