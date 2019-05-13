@@ -54,9 +54,17 @@ So, I downloaded both of them. Then, I added the Slimbook PPA repository to my l
 
 It is important to follow this order, otherwise you can get inconsistent states in installed packages (that can be easily solved with `sudo apt --fix-broken install`, but anyway...).
 
-After this, I run the configuration GUI, by searching the apps, and launching the one with the SlimbookBattery and the gear wheel.
+To get the SlimbookBattery icon in the top icon bar, you also need to install the corresponding GNOME Shell extension, which is not installed by default:
 
-After saving it, I see errors in the console like:
+```
+% sudo apt-get install gnome-shell-extension-appindicator
+```
+
+After this, I run the configuration GUI, by searching the apps, and launching the one with the SlimbookBattery and the gear wheel.
+The only option I change is, in Balanced Mode, "Wi-Fi disabled when not in use".
+This seems to prevent that sometimes, when booting after hibernation, WiFi was not active.
+
+After saving configuration (OK button), I see errors in the console like:
 
 ```
 sh: 1: prime-select: not found
@@ -66,6 +74,7 @@ but it seems that's only a warning because I don't have NVIDIA graphics cards in
 
 Now, I'm seeing an increasy in battery life of about 25%-30%. Nice.
 
+To get the icon in the top bar, I still had to reboot the laptop (maybe rebooting the GNOME Shell would be enough), and run the GNOME Tweak Tool upon reboot to activate the opton for getting Appindicator notifications: menu "Extensions", option "KStatusNotifierItem/AppIndicator".
 
 ## Suspension problem
 
