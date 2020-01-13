@@ -13,7 +13,8 @@ ElasticSearch, Kibana...:
 * [My methodology for producing Kibana dashboards](kibana-dashboards.md)
 * [Developing for Kibana 5](kibana-devel.md)
 
-Related to other random tools:
+Related to other random tools & services:
 
 * [Tools and tricks](tools-and-tricks.md)
 * [JavaScript](avascript.md)
+* [Available options (Internet-related applications and services)](options.md)
