@@ -18,3 +18,4 @@ Related to other random tools & services:
 * [Tools and tricks](tools-and-tricks.md)
 * [JavaScript](avascript.md)
 * [Available options (Internet-related applications and services)](options.md)
+* [FOSS tools useful for distance learning](foss-distance-learning.md)
