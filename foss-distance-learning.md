@@ -70,10 +70,13 @@ Posts and tutorials on how to setup some of these tools together, in some cases 
 
 * [Teaching on Twitch](http://matthematics.com/teach-on-twitch/), and [Teaching on Twitch II: My Rig](http://matthematics.com/teach-on-twitch-my-setup/) by Matt Salomone. Features, among other non-FOSS tools and services, OBS. Includes descriptions of the hardware setup used.
 
-
 # Deployment and installation notes
 
 * Jitsi (the server side) can be deployed with relative easy in a Linux box (you have Debian and Ubuntu packages, for example), or from [Docker containers](https://github.com/jitsi/docker-jitsi-meet).
+
+# Other useful resources
+
+* [De-google-ify Internet](https://degooglisons-internet.org/en/list): list of services, most of them powered by free software, which could be use as alternatives to many Internet-based services. Maintained by [Framasoft](https://framasoft.org/en/association/). Most of the services could be easily deployed for an institution.
 
 # License and contributions
 
