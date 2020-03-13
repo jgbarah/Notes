@@ -12,15 +12,27 @@ Conducting distance learning sessions, and producing materials for distance lear
 
 * Maintaining social contact with students as a group, usually through chat or messaging applications.
 
+The current table of contents of this document is:
 
-## Videoconferencing
+* [Videoconferencing](#videoconferencing)
+* [Video streaming and recording](#videostreaming)
+* [Video editing](#videoediting)
+* [Chat groups](#chat)
+* [Useful tricks](#tricks)
+* [Everything together](#together)
+* [Other useful resources](#resources)
+* [License and contributions](#license)
+
+
+## <a name="videoconferencing"></a>Videoconferencing
+
 
 * [Jitsi](https://jitsi.org). Toolset for building videoconferencing systems. It can be used directly, just with a web browser ([Meet.jit.si](https://meet.jit.si). You don't need to open an account, just decide on a name for your room, and "start a new meeting". Grant permissions to your mic and webcam, share the link with your students, and you're ready to go. You can also use Jitsi from Riot (and other Matrix clients, see below), or from your own deployment (see deployment notes below).
 
 [Usable in most browsers]
 
 
-## Video streaming and recording
+## <a name="videostreaming"></a>Video streaming and recording
 
 * [OBS Studio](https://obsproject.com/), from Open Broadcaster Software, is a very powerful and complete application for broadcasting live, or for recording. It can screencast from your desktop, record from your webcam, or from other video and audio sources. You can use to stream live via, or to upload to, Youtube, Twitch, etc.
 
@@ -39,7 +51,7 @@ Conducting distance learning sessions, and producing materials for distance lear
 [Usable in Linux]
 
 
-## Video editing
+## <a name="videoediting"></a>Video editing
 
 * [VLC](https://vlc.media/) is mainly a media player, but is also has some editing capabilities. You can read about many of them in [A Full Guide to Use VLC as An Video Editor](https://videoconverter.wondershare.com/vlc/how-to-use-vlc-as-a-video-editor.html).
 
@@ -57,31 +69,31 @@ Conducting distance learning sessions, and producing materials for distance lear
 
 [Usable in Linux, Windows, MacOS]
 
-## Chat groups
+## <a name="chat"></a>Chat groups
 
 * [Matrix](https://matrix.org/) is a standard for real time communication. With it you can establish messaging groups, in ways very similar to Whatsapp or Telegram, but in a federated way (you can decide your Matrix provider, but your messages will reach any other person using any other provider in the network). A popular application for using Matrix is [Riot.im](https://riot.im/), which you can use just with a web browser, or via a mobile app, or a desktop app. From Riot.im you can also start Jitsi sessions (videoconferencing with the people in a chat group).
 
 [Usable in most browsers, Android, iOS, Linux
 
-# Useful tricks
+## <a name="tricks"></a>Useful tricks
 
 * [How do I highlight my mouse pointer while screen recording?](https://askubuntu.com/questions/777896/how-do-i-highlight-my-mouse-pointer-while-screen-recording) (in Linux).
 
-# Everything together
+## <a name="together"></a>Everything together
 
 Posts and tutorials on how to setup some of these tools together, in some cases in combination with other non-FOSS tools, or services:
 
 * [Teaching on Twitch](http://matthematics.com/teach-on-twitch/), and [Teaching on Twitch II: My Rig](http://matthematics.com/teach-on-twitch-my-setup/) by Matt Salomone. Features, among other non-FOSS tools and services, OBS. Includes descriptions of the hardware setup used.
 
-# Deployment and installation notes
+## <a name="deployment"></a>Deployment and installation notes
 
 * Jitsi (the server side) can be deployed with relative easy in a Linux box (you have Debian and Ubuntu packages, for example), or from [Docker containers](https://github.com/jitsi/docker-jitsi-meet).
 
-# Other useful resources
+## <a name="resources"></a>Other useful resources
 
 * [De-google-ify Internet](https://degooglisons-internet.org/en/list): list of services, most of them powered by free software, which could be use as alternatives to many Internet-based services. Maintained by [Framasoft](https://framasoft.org/en/association/). Most of the services could be easily deployed for an institution.
 
-# License and contributions
+## <a name="license"></a>License and contributions
 
 This document is distributed under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0).
 
