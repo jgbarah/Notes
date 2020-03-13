@@ -1,7 +1,7 @@
-# Software libre para aprendizaje a distancia
+# Software libre para el aprendizaje a distancia
 
 Estas son algunas notas sobre software libre (FOSS) que pueden ser
-útiles para aprendizaje a distancia, aquel que se realiza remótamente
+útiles para aprendizaje a distancia, aquel que se realiza remotamente
 para ayudar a personas en su proceso de aprendizaje.
 
 Realizar sesiones de aprendizaje a distancia y producir materiales
@@ -60,7 +60,7 @@ herramientas para diferentes escenarios, pero el principal sería:
 
 * [Gromit-MPX](https://github.com/bk138/gromit-mpx) una herramienta
   para anotar cualquier cosa en el escritorio. Dibujar líneas o
-  cualquier cosa encima de cualquier ventanta o aplicación del
+  cualquier cosa encima de cualquier ventana o aplicación del
   escritorio mediante un puntero o similar.
 
 [Utilizable en Linux]
@@ -122,9 +122,9 @@ de software libre o servicios:
 
 * Jitsi (servidor) se pude desplegar de forma sencilla en una máquina
   Linux (hay paquetes para Debian y Ubuntu por ejemplo), o mediante un
-  [contanedor Docker](https://github.com/jitsi/docker-jitsi-meet).
+  [contenedor Docker](https://github.com/jitsi/docker-jitsi-meet).
 
-# License and contributions
+# Licencia y contribuciones
 
 Este documento se distribuye bajo la licencia
 [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -134,6 +134,6 @@ Todo el contenido original de este documento se puede encontrar en un
 [repositorio de GitHub](https://github.com/jgbarah/Notes/).
 
 Si quiere contribuir, por favor
-[abrab un *issue* con sus comentarios, sugerencias o contribuciones en este repositorio](https://github.com/jgbarah/Notes/issues/new),
+[abra un *issue* con sus comentarios, sugerencias o contribuciones en este repositorio](https://github.com/jgbarah/Notes/issues/new),
 o incluso mejor, [envíe una *pull request* al mismo](https://github.com/jgbarah/Notes/pulls).
 
