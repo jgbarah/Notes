@@ -49,6 +49,10 @@ Conducting distance learning sessions, and producing materials for distance lear
 
 [Usable in Linux, Windows, Mac]
 
+* [Kdenlive](https://kdenlive.org/) is a relatively advanced video editor, but rather straightforward to use.
+
+[Usable in Linux, Windows]
+
 
 ## Chat groups
 
