@@ -53,6 +53,9 @@ Conducting distance learning sessions, and producing materials for distance lear
 
 [Usable in Linux, Windows]
 
+* [Shotcut](https://shotcut.org/) is a relatively easy to use video editor, capable of most common tasks.
+
+[Usable in Linux, Windows, Mac]
 
 ## Chat groups
 
