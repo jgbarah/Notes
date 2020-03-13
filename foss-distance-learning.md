@@ -24,7 +24,7 @@ Conducting distance learning sessions, and producing materials for distance lear
 
 * [OBS Studio](https://obsproject.com/), from Open Broadcaster Software, is a very powerful and complete application for broadcasting live, or for recording. It can screencast from your desktop, record from your webcam, or from other video and audio sources. You can use to stream live via, or to upload to, Youtube, Twitch, etc.
 
-[Usable in Linux, Windows, Mac]
+[Usable in Linux, Windows, MacOS]
 
 * [Peek](https://github.com/phw/peek). Very easy recording of screencasts.
 
@@ -43,11 +43,11 @@ Conducting distance learning sessions, and producing materials for distance lear
 
 * [VLC](https://vlc.media/) is mainly a media player, but is also has some editing capabilities. You can read about many of them in [A Full Guide to Use VLC as An Video Editor](https://videoconverter.wondershare.com/vlc/how-to-use-vlc-as-a-video-editor.html).
 
-[Usable in Linux, Windows, Mac, Android, iOS, etc.]
+[Usable in Linux, Windows, MacOS, Android, iOS, etc.]
 
 * [OpenShot](https://www.openshot.org/) is a relatively simple video editor, but good enough for many purposes. One of its main advantages is likely how easy to use it is.
 
-[Usable in Linux, Windows, Mac]
+[Usable in Linux, Windows, MacOS]
 
 * [Kdenlive](https://kdenlive.org/) is a relatively advanced video editor, but rather straightforward to use.
 
@@ -55,7 +55,7 @@ Conducting distance learning sessions, and producing materials for distance lear
 
 * [Shotcut](https://shotcut.org/) is a relatively easy to use video editor, capable of most common tasks.
 
-[Usable in Linux, Windows, Mac]
+[Usable in Linux, Windows, MacOS]
 
 ## Chat groups
 
