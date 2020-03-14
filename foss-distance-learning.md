@@ -19,6 +19,7 @@ The current table of contents of this document is:
 * [Videoconferencing](#videoconferencing)
 * [Video streaming and recording](#videostreaming)
 * [Video editing](#videoediting)
+* [Audio edition](#audioediting)
 * [Chat groups](#chat)
 * [Useful tricks](#tricks)
 * [Everything together](#together)
@@ -78,6 +79,12 @@ The current table of contents of this document is:
 * [Flowblade](https://jliljebl.github.io/flowblade/) is a multitrack non-linear video editor. Maybe more complex than other video editors, but maybe more capable as well.
 
 [Usable in [Linux](https://jliljebl.github.io/flowblade/download.html)]
+
+## <a name="audioediting"></a>Audio edition
+
+* [Audacity](https://www.audacityteam.org/) is an easy-to-use, multi-track audio editor and recorder. Useful to clean the audio track of a class recording, or to produce a class-as-a-podcast, for example.
+
+[Usable in [Linux](https://www.audacityteam.org/download/linux/), [Windows](https://www.audacityteam.org/download/windows/), [MacOS](https://www.audacityteam.org/download/mac/)]
 
 
 ## <a name="chat"></a>Chat groups
