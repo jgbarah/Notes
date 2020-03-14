@@ -50,6 +50,7 @@ The current table of contents of this document is:
 
 [Usable in Linux]
 
+* [SimpleScreenRecording](https://www.maartenbaert.be/simplescreenrecorder/) is a program to record the desktop on Linux. It allows to select the screen to record (useful when using multiple monitors) or record whole screen or an specific region. It records video and audio and supports different formats.
 
 ## <a name="videoediting"></a>Video editing
 
