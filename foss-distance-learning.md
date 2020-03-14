@@ -75,6 +75,11 @@ The current table of contents of this document is:
 
 [Usable in Linux, Windows, MacOS]
 
+* [Flowblade](https://jliljebl.github.io/flowblade/) is a multitrack non-linear video editor. Maybe more complex than other video editors, but maybe more capable as well.
+
+[Usable in [Linux](https://jliljebl.github.io/flowblade/download.html)]
+
+
 ## <a name="chat"></a>Chat groups
 
 * [Matrix](https://matrix.org/) is a standard for real time communication. With it you can establish messaging groups, in ways very similar to Whatsapp or Telegram, but in a federated way (you can decide your Matrix provider, but your messages will reach any other person using any other provider in the network). A popular application for using Matrix is [Riot.im](https://riot.im/), which you can use just with a web browser, or via a mobile app, or a desktop app. From Riot.im you can also start Jitsi sessions (videoconferencing with the people in a chat group).
