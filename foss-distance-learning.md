@@ -23,6 +23,7 @@ The current table of contents of this document is:
 * [Chat groups](#chat)
 * [Useful tricks](#tricks)
 * [Everything together](#together)
+* [Deployment and installation](#deployment)
 * [Other useful resources](#resources)
 * [License and contributions](#license)
 
@@ -49,13 +50,14 @@ The current table of contents of this document is:
 
 [Usable in Linux]
 
-* [Gromit-MPX](https://github.com/bk138/gromit-mpx) is a tool to annotate anything in the desktop. Draw lines or whatever on top of anything you may have on your desktop, using a pointer or a stylus on a tablet.
-
-[Usable in Linux]
-
 * [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/) is a program to record the desktop on Linux. It allows to select the screen to record (useful when using multiple monitors) or record whole screen or an specific region. It records video and audio and supports different formats.
 
 [Usable in [Linux](https://www.maartenbaert.be/simplescreenrecorder/#download)]
+
+
+* [Gromit-MPX](https://github.com/bk138/gromit-mpx) is a tool to annotate anything in the desktop. Draw lines or whatever on top of anything you may have on your desktop, using a pointer or a stylus on a tablet.
+
+[Usable in Linux]
 
 
 ## <a name="videoediting"></a>Video editing
@@ -103,7 +105,7 @@ Posts and tutorials on how to setup some of these tools together, in some cases 
 
 * [Teaching on Twitch](http://matthematics.com/teach-on-twitch/), and [Teaching on Twitch II: My Rig](http://matthematics.com/teach-on-twitch-my-setup/) by Matt Salomone. Features, among other non-FOSS tools and services, OBS. Includes descriptions of the hardware setup used.
 
-## <a name="deployment"></a>Deployment and installation notes
+## <a name="deployment"></a>Deployment and installation
 
 * Jitsi (the server side) can be deployed with relative easy in a Linux box (you have Debian and Ubuntu packages, for example), or from [Docker containers](https://github.com/jitsi/docker-jitsi-meet).
 

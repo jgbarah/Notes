@@ -26,7 +26,21 @@ herramientas para diferentes escenarios, pero el principal sería:
 * Mantener contacto social con el grupo de estudiantes mediante alguna
   aplicación de mensajería o chat.
 
-## Videoconferencia
+El índice de este document es:
+
+* [Videoconferencia](#videoconferencing)
+* [Grabación y emisión de video](#videostreaming)
+* [Edición de video](#videoediting)
+* [Edición de audio](#audioediting)
+* [Grupos de conversación](#chat)
+* [Trucos útiles](#tricks)
+* [Todo junto](#together)
+* [Otros recursos útiles](#resources)
+* [Notas sobre despliegue e instalación](#license)
+* [Licencia y contribuciones](#license)
+
+
+## <a name="videoconferencing"></a>Videoconferencia
 
 * [Jitsi](https://jitsi.org). Conjunto de herramientas para crear
   sistemas de videoconferencia simplemente con un navegador
@@ -40,7 +54,7 @@ herramientas para diferentes escenarios, pero el principal sería:
 
 [Utilizable en la mayoría de navegadores]
 
-## Emisión de vídeo y grabación
+## <a name="videostreaming">Grabación y emisión de video</a>
 
 * [OBS Studio](https://obsproject.com/), de Open Broadcaster Software,
   una potente y completa aplicación para la emisión en directo o
@@ -60,6 +74,11 @@ herramientas para diferentes escenarios, pero el principal sería:
 
 [Utilizable en Linux]
 
+* [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/) es un programa para grabar el escritorio en Linux. Permite seleccionar la pantalla a grabar (útil cuando se usan varios monitores) o grabar toda la pantalla o una región específica. Graba video y audio en varios formatos.
+
+[Utilizable en [Linux](https://www.maartenbaert.be/simplescreenrecorder/#download)]
+
+
 * [Gromit-MPX](https://github.com/bk138/gromit-mpx) una herramienta
   para anotar cualquier cosa en el escritorio. Dibujar líneas o
   cualquier cosa encima de cualquier ventana o aplicación del
@@ -67,7 +86,7 @@ herramientas para diferentes escenarios, pero el principal sería:
 
 [Utilizable en Linux]
 
-## Edidión de vídeo
+## <a name="videoediting">Edición de vídeo</a>
 
 * [VLC](https://vlc.media/) es principalmente un reproductor, pero con
   algunas funcionalidades de edición. Puede leer sobre éstas en 
@@ -87,7 +106,23 @@ herramientas para diferentes escenarios, pero el principal sería:
 
 [Utilizable en Linux, Windows]
 
-## Grupos de chat
+* [Shotcut](https://shotcut.org/) es un editor de video relativamente fácil de usar, capaz de las tareas más habituales.
+
+[Utilizable en Linux, Windows, MacOS]
+
+* [Flowblade](https://jliljebl.github.io/flowblade/) es un edtor de video no lineal y multipista. Quizás más complejo que otros editores de video, pero quizás también más capaz.
+
+[Utilizable en [Linux](https://jliljebl.github.io/flowblade/download.html)]
+
+
+## <a name="audioediting"></a>Edición de audio
+
+* [Audacity](https://www.audacityteam.org/) es un editor y grabador de audio fácil de usar y multipista. Útil para limpiar la pista de audio de la grabación de una clase, o para producir una clase en formato podcast, por ejemplo.
+
+[Utilizable en [Linux](https://www.audacityteam.org/download/linux/), [Windows](https://www.audacityteam.org/download/windows/), [MacOS](https://www.audacityteam.org/download/mac/)]
+
+
+## <a name="chat">Grupos de chat</a>
 
 * [Matrix](https://matrix.org/) es el estándar para comunicación en
   tiempo real. Se pueden establecer mensajes a grupos de una forma muy
@@ -103,12 +138,12 @@ herramientas para diferentes escenarios, pero el principal sería:
 
 [Utilizable en la mayorías de los navegadores, Android, iOS, Linux]
 
-# Trucos útiles
+## <a name="tricks">Trucos útiles</a>
 
 * [How do I highlight my mouse pointer while screen recording?](https://askubuntu.com/questions/777896/how-do-i-highlight-my-mouse-pointer-while-screen-recording)
   (en inglés y para Linux).
 
-# Todo junto
+## <a name="together">Todo junto</a>
 
 Entradas y tutoriales sobre cómo configurar todas estas herramientas
 juntas y su combinación en algunos casos con herramientas que no son
@@ -120,13 +155,13 @@ de software libre o servicios:
   herramientas no libres y servicios, OBS. Incluye detalles sobre la
   configuración de hardware a usar.
 
-# Notas sobre despliegues e instalaciones
+## <a name="deployment">Notas sobre despliegue e instalación</a>
 
 * Jitsi (servidor) se pude desplegar de forma sencilla en una máquina
   Linux (hay paquetes para Debian y Ubuntu por ejemplo), o mediante un
   [contenedor Docker](https://github.com/jitsi/docker-jitsi-meet).
 
-# Licencia y contribuciones
+## <a name="license">Licencia y contribuciones</a>
 
 Este documento se distribuye bajo la licencia
 [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)
