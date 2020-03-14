@@ -1,5 +1,7 @@
 # Software libre para el aprendizaje a distancia
 
+[[Original en inglés](foss-distance-learning)]
+
 Estas son algunas notas sobre software libre (FOSS) que pueden ser
 útiles para aprendizaje a distancia, aquel que se realiza remotamente
 para ayudar a personas en su proceso de aprendizaje.

@@ -1,5 +1,7 @@
 # Free software for distance learning
 
+[[Spanish](foss-distance-learning-es)]
+
 These are some notes about free, open source software (FOSS) that could be useful when going remote, in this business of helping people in their learning process (aka, distance learning).
 
 Conducting distance learning sessions, and producing materials for distance learning involve many different areas. This document tries to include tools for many different scenarios, but maybe the core one would be:
