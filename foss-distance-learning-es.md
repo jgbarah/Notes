@@ -26,12 +26,13 @@ herramientas para diferentes escenarios, pero el principal sería:
 * Mantener contacto social con el grupo de estudiantes mediante alguna
   aplicación de mensajería o chat.
 
-El índice de este document es:
+El índice de este documento es:
 
 * [Videoconferencia](#videoconferencing)
 * [Grabación y emisión de video](#videostreaming)
 * [Edición de video](#videoediting)
 * [Edición de audio](#audioediting)
+* [Pizarras blancas y escritura sobre la pantalla](#whiteboard)
 * [Grupos de conversación](#chat)
 * [Trucos útiles](#tricks)
 * [Todo junto](#together)
@@ -80,13 +81,6 @@ El índice de este document es:
 [Utilizable en [Linux](https://www.maartenbaert.be/simplescreenrecorder/#download)]
 
 
-* [Gromit-MPX](https://github.com/bk138/gromit-mpx) una herramienta
-  para anotar cualquier cosa en el escritorio. Dibujar líneas o
-  cualquier cosa encima de cualquier ventana o aplicación del
-  escritorio mediante un puntero o similar.
-
-[Utilizable en Linux]
-
 ## <a name="videoediting">Edición de vídeo</a>
 
 * [VLC](https://vlc.media/) es principalmente un reproductor, pero con
@@ -121,6 +115,21 @@ El índice de este document es:
 * [Audacity](https://www.audacityteam.org/) es un editor y grabador de audio fácil de usar y multipista. Útil para limpiar la pista de audio de la grabación de una clase, o para producir una clase en formato podcast, por ejemplo.
 
 [Utilizable en [Linux](https://www.audacityteam.org/download/linux/), [Windows](https://www.audacityteam.org/download/windows/), [MacOS](https://www.audacityteam.org/download/mac/)]
+
+
+## <a name="whiteboard"></a>Pizarras blancas y escritura sobre la pantalla
+
+* [Openboard](https://github.com/OpenBoard-org/OpenBoard/wiki) es una pizarra blanca interactiva, con ciertas capacidades de emisión de video (screencast).
+
+[Utilizable en [Linux, Windwos, MacOS](https://github.com/OpenBoard-org/OpenBoard/wiki/Downloads)]
+
+* [Gromit-MPX](https://github.com/bk138/gromit-mpx) una herramienta
+  para anotar cualquier cosa en el escritorio. Dibujar líneas o
+  cualquier cosa encima de cualquier ventana o aplicación del
+  escritorio mediante un puntero o similar.
+
+[Utilizable en Linux]
+
 
 
 ## <a name="chat">Grupos de chat</a>

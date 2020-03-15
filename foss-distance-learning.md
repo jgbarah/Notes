@@ -20,6 +20,7 @@ The current table of contents of this document is:
 * [Video streaming and recording](#videostreaming)
 * [Video editing](#videoediting)
 * [Audio edition](#audioediting)
+* [Whiteboards and writing on screen](#whiteboard)
 * [Chat groups](#chat)
 * [Useful tricks](#tricks)
 * [Everything together](#together)
@@ -55,11 +56,6 @@ The current table of contents of this document is:
 [Usable in [Linux](https://www.maartenbaert.be/simplescreenrecorder/#download)]
 
 
-* [Gromit-MPX](https://github.com/bk138/gromit-mpx) is a tool to annotate anything in the desktop. Draw lines or whatever on top of anything you may have on your desktop, using a pointer or a stylus on a tablet.
-
-[Usable in Linux]
-
-
 ## <a name="videoediting"></a>Video editing
 
 * [VLC](https://vlc.media/) is mainly a media player, but is also has some editing capabilities. You can read about many of them in [A Full Guide to Use VLC as An Video Editor](https://videoconverter.wondershare.com/vlc/how-to-use-vlc-as-a-video-editor.html).
@@ -87,6 +83,17 @@ The current table of contents of this document is:
 * [Audacity](https://www.audacityteam.org/) is an easy-to-use, multi-track audio editor and recorder. Useful to clean the audio track of a class recording, or to produce a class-as-a-podcast, for example.
 
 [Usable in [Linux](https://www.audacityteam.org/download/linux/), [Windows](https://www.audacityteam.org/download/windows/), [MacOS](https://www.audacityteam.org/download/mac/)]
+
+
+## <a name="whiteboard"></a>Whiteboards and writing on screen
+
+* [Openboard](https://github.com/OpenBoard-org/OpenBoard/wiki) is an interactive whiteboard application with some screencasting capabilities.
+
+[Usable in [Linux, Windwos, MacOS](https://github.com/OpenBoard-org/OpenBoard/wiki/Downloads)]
+
+* [Gromit-MPX](https://github.com/bk138/gromit-mpx) is a tool to annotate anything in the desktop. Draw lines or whatever on top of anything you may have on your desktop, using a pointer or a stylus on a tablet.
+
+[Usable in Linux]
 
 
 ## <a name="chat"></a>Chat groups
