@@ -44,7 +44,8 @@ El índice de este document es:
 
 * [Jitsi](https://jitsi.org). Conjunto de herramientas para crear
   sistemas de videoconferencia simplemente con un navegador
-  ([Meet.jit.si](https://meet.jit.si). No es necesario abrir una
+  ([Meet.jit.si](https://meet.jit.si) o con aplicación móvil
+  (Jitsi Meet). No es necesario abrir una
   cuenta, simplemente se decide el nombre de la sala y comienza una
   nueva reunión. Hay que darle permiso de acceso al micrófono y cámara
   web, compartir el enlace con los estudiantes y todo está listo para 
@@ -52,7 +53,7 @@ El índice de este document es:
   tal como aparecen más abajo) o incluso hacer desarrollo propio
   (véase las notas sobre despliegue más abajo)
 
-[Utilizable en la mayoría de navegadores]
+[Utilizable en la mayoría de navegadores, Android, iOS]
 
 ## <a name="videostreaming">Grabación y emisión de video</a>
 
