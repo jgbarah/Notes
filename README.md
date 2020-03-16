@@ -6,6 +6,7 @@ Related to Debian:
 * [Installing and managing Freedom Box](freedombox.md)
 * [Life in Debian testing](life-in-testing.md)
 * [Installing Debian testing (stretch) in a Dell XPS 13 Developer Edition (2015)](debian-xps-13.md) (no longer maintained) 
+* [Wacom Intuos CTL-4100 in Debian](wacom-debian.md)
 
 ElasticSearch, Kibana...:
 
