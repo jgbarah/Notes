@@ -15,3 +15,7 @@ perfectly found it, and it was no longer erratic.
 
 There is a detailed description of the problem in
 "[Issue: My Wacom Intuos (CTL-4100 or CTL-6100) has a dim status LED and behaves erratically](https://github.com/linuxwacom/xf86-input-wacom/wiki/Known-Issues#android-misdetect)".
+
+Once GNOME Settings can find the tablet and the stylus, it is a matter
+of configuring them. For that, you can follow instructions in
+[Wacom Graphics Tablet in GNOME Help](https://help.gnome.org/users/gnome-help/stable/wacom.html.en).
