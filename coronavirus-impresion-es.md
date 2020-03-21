@@ -2,6 +2,8 @@
 
 El sitio donde se está coordinando la mayor parte de la actividad maker en relación con la situación sanitaria causada por la epidemia de coronavirus es [Coronavirus Makers](https://www.coronavirusmakers.org/index.php/es/). En él puede encontrarse una lista extensa de grupos especializados en elementos concretos (respiradores, mascarillas, protectores faciales, etc.), y de coordinación de las distintas comunidades autonómicas. En general son grupos de Telegram.
 
+Hay también un sitio web específico para información de coordinación de lo que se está haciendo en Madrid: [COVIDMadrid.com](https://covidmadrid.com/).
+
 Como tengo una impresora 3D, y vivo en Madrid, me he apuntado a los siguientes grupos:
 
 * El grupo fundamental es [CV19_INFO_MADRID](https://t.me/cv19_fab_info), canal moderado donde sólamente se reciben unos pocos mensajes al día con la información fundamental (aconsejo empezar por este canal si alguien se acaba de apuntar a este jaleo). Incluye un formulario para indicar los materiales de que se dispone (piezas 3D que se han podido imprimir, y otros materiales auxiliares útiles).
