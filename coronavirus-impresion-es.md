@@ -28,6 +28,34 @@ Los modelos a imprimir son los que están del canal ["3D printed Face Mask A4 sh
 
 Para las pantallas de plástico transparente, se recomienda que sean de PVC O PET (parece que el acetato no aguanta los métodos de desinfección). Se recomeinda para este modelo que sean de 240 micras, las de 180 pueden caerse (pero se puede solucionar con cinta adhesiva, o utilizar el refuerzo diseñado al efecto ([fijación láminas.stl](https://cdn.thingiverse.com/assets/90/9a/52/09/6a/fijacion_laminas_finas_Visera_3.5.2.stl)) para la sujeción. 
 
+## MAKERS GETAFE
+GRUPOS de Telegram
+
+ 1. LOGISTICA: https://t.me/joinchat/N3nb20vhjKKdFRdU1ezZ0Q 
+ 2. GENERAL:
+   https://t.me/joinchat/N3nb2xyLiFs4H2UzlqZL5w  
+ 3. FABRICACIÓN:
+   https://t.me/joinchat/N3nb20yJIMnOrUPWXF8w3g
+  
+ Antes de Empezar
+ 
+ 1. Lee el manual de impresión
+ 2. Cuando tengas material impreso, rellena la excel [https://docs.google.com/spreadsheets/d/1K7m4dV5NfDMxKLav6jHCdzQTZqJiKSewGEd3d09-3ik/edit#gid=0](https://docs.google.com/spreadsheets/d/1K7m4dV5NfDMxKLav6jHCdzQTZqJiKSewGEd3d09-3ik/edit#gid=0)
+	 - Importantísimo que rellenes la columna  "metro" con la parada más cercana a tu domicilio
+	 -  Rellena la columna Salud: Con los siguientes valores 
+		 - SANO:  Estás bien
+		 - CON SINTOMAS: Si estás malo o alguien en tu domicilio tiene síntomas
+ 3. **Desinfección y Empaquetado de Material**
+
+**ESTE PROCESO DEBERÁ REALIZARSE CON GUANTES Y MASCARILLA.**
+
+Una vez tengas todas las piezas que vayas a entregar, tienen que ser desinfectadas, así como la bolsa en la que se vaya a entregar.
+
+La solución desinfectante que vamos a usar va a ser la recomendada por la OMS. 30ml de lejía por cada litro de agua.
+
+**¡IMPORTANTE! La solución SOLO es efectiva durante 24h.**
+	 - 
+
 ## Otras notas
 
 En Euskadi tienen un sitio web con instrucciones muy claras para imprimir, desinfectar y avisar para la recogida: [Impresión 3D Comunidad Maker de Euskadi contra el Coronavirus](https://covideuskadi.net/impresion-3d/). Muy interesantes las indicaciones para desinfectar antes de embolsar, recuerda hacer esto si vas a hacer distribución local de lo que hayas imprimido.
