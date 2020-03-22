@@ -4,13 +4,15 @@ El sitio donde se está coordinando la mayor parte de la actividad maker en rela
 
 Hay también un sitio web específico para información de coordinación de lo que se está haciendo en Madrid: [COVIDMadrid.com](https://covidmadrid.com/).
 
-Como tengo una impresora 3D, y vivo en Madrid, me he apuntado a los siguientes grupos:
+Como tengo una impresora 3D, y vivo en Madrid, me he apuntado a los siguientes grupos de Telegram:
 
 * El grupo fundamental es [CV19_INFO_MADRID](https://t.me/cv19_fab_info), canal moderado donde sólamente se reciben unos pocos mensajes al día con la información fundamental (aconsejo empezar por este canal si alguien se acaba de apuntar a este jaleo). Incluye un formulario para indicar los materiales de que se dispone (piezas 3D que se han podido imprimir, y otros materiales auxiliares útiles).
 
 * Grupo de fabricación [CV19_FAB_MADRID](https://t.me/joinchat/Ec-3Ih0C2Wzr7OBkqfiEUQ) (canal de Telegram). El sábado 21 de marzo somos ya más de 2100 miembros en ese canal, y tiene bastante tráfico. Es el sitio donde hacer preguntas (y sobre todo hace falta gente que ayude a responderlas) sobre fabricación con impresora 3D, por ahora (21 de marzo) viseras para protección facial.
 
 * Grupo de logística [CV19_FAB_MADRID LOGISTICA](https://t.me/joinchat/MI8qJ0vZuLWeJOJlJgMguQ), para coordinarnos sobre cómo enviar lo que se vaya produciendo, y cómo hacerlo llegar a quien mejor lo pueda usar.
+
+* Mi grupo local (listado de grupos locales en el grupo de Telegram CV19_INFO_MADRID, ver más arriba).
 
 El grupo de Madrid está, al menos por ahora, centrado en la impresión de viseras que, complementadas con un un plástico transparente de tamaño A4 (de PVC, por ejemplo de los usados en encuadernación) y según modelo, con una goma de sujección, permite tener un protector facial para usar en combinación con mascarillas y otros elementos. Actualmente estos dispositivos no están certificados para su uso por profesionales sanitarios, pero son útiles para otros sectores que los pueden necesitar (protección civil, policía, distribución, pequeño comercio, etc.). Por lo que veo en los canales, también hay profesionales de la salud que los demandan por no tener nada mejor.
 
@@ -25,6 +27,10 @@ Los modelos a imprimir son los que están del canal ["3D printed Face Mask A4 sh
 (Como Thingiverse está un poco colapsado y a veces tarda mucho en cargar o no carga, incluyo enlaces directos y enlace copia de los diseños STL (pero siempre que puedas, intenta descargarlos de Thigiverse, por si se hubieran actualizado):
 
 Para las pantallas de plástico transparente, se recomienda que sean de PVC O PET (parece que el acetato no aguanta los métodos de desinfección). Se recomeinda para este modelo que sean de 240 micras, las de 180 pueden caerse (pero se puede solucionar con cinta adhesiva, o utilizar el refuerzo diseñado al efecto ([fijación láminas.stl](https://cdn.thingiverse.com/assets/90/9a/52/09/6a/fijacion_laminas_finas_Visera_3.5.2.stl)) para la sujeción. 
+
+## Otras notas
+
+En Euskadi tienen un sitio web con instrucciones muy claras para imprimir, desinfectar y avisar para la recogida: [Impresión 3D Comunidad Maker de Euskadi contra el Coronavirus](https://covideuskadi.net/impresion-3d/). Muy interesantes las indicaciones para desinfectar antes de embolsar, recuerda hacer esto si vas a hacer distribución local de lo que hayas imprimido.
 
 
 ## <a name="license">Licencia y contribuciones</a>
