@@ -164,3 +164,44 @@ Name=Xhost for local root
 ```
 
 Done... You need to log out and log in back to test it.
+
+
+## Installing from unstable
+
+From time to time, I find a package that I need, which is not in testing, but is in unstable (sid). If I want to give it a try, all I need is to include a line for sid in my /etc/apt/sources.list file:
+
+```
+deb http://deb.debian.org/debian/ sid main non-free contrib
+```
+
+Then, run:
+
+```
+$ sudo apt-get update
+```
+
+And now, check if the package is in sid (or in other distros). For example:
+
+```
+$ sudo apt-cache policy printrun
+printrun:
+  Installed: (none)
+  Candidate: 2.0.0~rc5-1
+  Version table:
+     2.0.0~rc5-1 500
+        500 http://deb.debian.org/debian sid/main amd64 Package
+```
+
+Then, I can install it, **with the needed dependencies from sid**:
+
+```
+$ sudo apt-get -t sid install printrun
+```
+
+...or install only the package from sid, but with dependencies from testing:
+
+
+```
+$ sudo apt-get install printrun/unstable
+```
+
