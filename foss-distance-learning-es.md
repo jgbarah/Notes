@@ -84,7 +84,7 @@ El índice de este documento es:
 ## <a name="videoediting">Edición de vídeo</a>
 
 * [VLC](https://vlc.media/) es principalmente un reproductor, pero con
-  algunas funcionalidades de edición. Puede leer sobre éstas en 
+  algunas funcionalidades de edición y de grabación ([How to record desktop](https://www.vlchelp.com/how-to-record-desktop/). Puede leer sobre éstas en 
   [A Full Guide to Use VLC as An Video Editor](https://videoconverter.wondershare.com/vlc/how-to-use-vlc-as-a-video-editor.html)
   (en inglés).
 
