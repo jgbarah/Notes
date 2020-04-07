@@ -58,7 +58,7 @@ The current table of contents of this document is:
 
 ## <a name="videoediting"></a>Video editing
 
-* [VLC](https://vlc.media/) is mainly a media player, but is also has some editing capabilities and it can record the desktop activity ([How to record desktop](https://www.vlchelp.com/how-to-record-desktop/)). You can read about many of them in [A Full Guide to Use VLC as An Video Editor](https://videoconverter.wondershare.com/vlc/how-to-use-vlc-as-a-video-editor.html).
+* [VLC](https://vlc.media/) is mainly a media player, but it also has some editing capabilities and can record desktop activity ([How to record desktop](https://www.vlchelp.com/how-to-record-desktop/)). You can read about many of them in [A Full Guide to Use VLC as An Video Editor](https://videoconverter.wondershare.com/vlc/how-to-use-vlc-as-a-video-editor.html).
 
 [Usable in Linux, Windows, MacOS, Android, iOS, etc.]
 
