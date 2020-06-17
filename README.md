@@ -21,5 +21,6 @@ Related to other random tools & services:
 * [Python](python.md)
 * [Available options (Internet-related applications and services)](options.md)
 * [FOSS tools useful for distance learning](foss-distance-learning.md) [[Spanish](foss-distance-learning-es.md)]
+* [FOSS tools for COVID tracing](foss-covid-tools.md)
 * [Impresión 3D en relación con la epidemia de coronavirus](coronavirus-impresion-es) [Spanish]
 * [Oculus Quest](oculus-quest.md)
