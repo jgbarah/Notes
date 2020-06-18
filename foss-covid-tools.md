@@ -59,6 +59,18 @@ Reference implementation of TraceTogether, recommended in Singapore.
 * Development repositories:
   * [opentrace-community](https://github.com/opentrace-community) GitHub organization
 
+## Stop Covid
+
+Officially recommended in France.
+
+* [Web site](https://www.economie.gouv.fr/stopcovid).
+* Android and iOS apps, and server.
+* License: MPL-2.0.
+* Development data in Cauldron.io: Not available.
+* Development repositories:
+  * [stopcovid19](https://gitlab.inria.fr/stopcovid19) INRIA GitLab organization
+
+
 ## Stopp Corona App
 
 Officially recommended in Austria.
