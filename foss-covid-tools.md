@@ -3,6 +3,14 @@
 List of tools for COVID contact tracing tools which are in whole, or in part, distributed as free, open source software.
 
 * [AarogyaSetu](#aarogyasetu) (India)
+* [CoronaWarnApp](#coronawarnapp) (Germany)
+* [eRouška](#erouska) (Czech Republic)
+* [Hamagen](#hamagen) (Israel)
+* [Inmuni App](#inmuniapp) (Italy)
+* [NHS COVID-19 App](#nhscovidapp) (UK)
+* [OpenTrace](#opentrace) (Singapore)
+* [Stop Covid](#stopcovid) (France)
+* [Stopp Corona App](#stoppcoronaapp) (Austria)
 
 ## <a name="aarogyasetu">AarogyaSetu</a>
 
@@ -15,7 +23,7 @@ Officially recommended in India
 * Development repositories:
   * [nic-delhi/AarogyaSetu_Android](https://github.com/nic-delhi/AarogyaSetu_Android) GitHub repostory
 
-## CoronaWarnApp
+## <a name="coronawarnapp">CoronaWarnApp</a>
 
 Officially recommended in Germany.
 
@@ -26,14 +34,14 @@ Officially recommended in Germany.
 * Development repositories:
   * [corona-warn-app](https://github.com/corona-warn-app) GitHub organization
 
-## eRouška
+## <a name="erouska">eRouška</a>
 
 Officially recommended in Czech Republic.
 
 * [Web site](https://erouska.cz/).
 * Android and iOS app, and server.
 * License: MIT.
-* [Development data in Cauldron.io](https://cauldron.io/dashboard/1545).
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1577).
 * Development repositories:
   * [erouska-webapp](https://github.com/covid19cz/erouska-webapp) GitHub repository
   * [erouska-android](https://github.com/covid19cz/erouska-android) GitHub repository
@@ -41,8 +49,18 @@ Officially recommended in Czech Republic.
   * [erouska-firebase](https://github.com/covid19cz/erouska-firebase) GitHub repository
   * [erouska-homepage](https://github.com/covid19cz/erouska-homepage) GitHub repository
 
+## <a name="hamagen">Hamagen</a>
 
-## Inmuni App
+Officially recommended in Israel.
+
+* [Web site](https://govextra.gov.il/ministry-of-health/hamagen-app/download-en/).
+* Android and iOS app.
+* License: MIT.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1578).
+* Development repositories:
+  * [MohGovIL/hamagen-react-native](https://github.com/MohGovIL/hamagen-react-native) GitHub repository.
+
+## <a name="inmuniapp">Inmuni App</a>
 
 Officially recommended in Italy.
 
@@ -53,7 +71,7 @@ Officially recommended in Italy.
 * Development repositories:
   * [immuni-app](https://github.com/immuni-app/) GitHub organization
 
-## NHS COVID-19 App
+## <a name="nhscovidapp">NHS COVID-19 App</a>
 
 Officially recommended in UK.
 
@@ -66,7 +84,7 @@ Officially recommended in UK.
   * [nhsx/COVID-19-app-iOS-BETA](https://github.com/nhsx/COVID-19-app-iOS-BETA) GitHub repository
   * [nhsx/COVID-19-app-Android-BETA](https://github.com/nhsx/COVID-19-app-Android-BETA) GitHub repository
 
-## OpenTrace
+## <a name="opentrace">OpenTrace</a>
 
 Reference implementation of TraceTogether, recommended in Singapore.
 
@@ -77,7 +95,7 @@ Reference implementation of TraceTogether, recommended in Singapore.
 * Development repositories:
   * [opentrace-community](https://github.com/opentrace-community) GitHub organization
 
-## Stop Covid
+## <a name="stopcovid">Stop Covid</a>
 
 Officially recommended in France.
 
@@ -89,7 +107,7 @@ Officially recommended in France.
   * [stopcovid19](https://gitlab.inria.fr/stopcovid19) INRIA GitLab organization
 
 
-## Stopp Corona App
+## <a name="stoppcoronaapp">Stopp Corona App</a>
 
 Officially recommended in Austria.
 
