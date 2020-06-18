@@ -2,7 +2,9 @@
 
 List of tools for COVID contact tracing tools which are in whole, or in part, distributed as free, open source software.
 
-## AarogyaSetu
+* [AarogyaSetu](#aarogyasetu) (India)
+
+## <a name="aarogyasetu">AarogyaSetu</a>
 
 Officially recommended in India
 
@@ -23,6 +25,22 @@ Officially recommended in Germany.
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1545).
 * Development repositories:
   * [corona-warn-app](https://github.com/corona-warn-app) GitHub organization
+
+## eRouška
+
+Officially recommended in Czech Republic.
+
+* [Web site](https://erouska.cz/).
+* Android and iOS app, and server.
+* License: MIT.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1545).
+* Development repositories:
+  * [erouska-webapp](https://github.com/covid19cz/erouska-webapp) GitHub repository
+  * [erouska-android](https://github.com/covid19cz/erouska-android) GitHub repository
+  * [erouska-ios](https://github.com/covid19cz/erouska-ios) GitHub repository
+  * [erouska-firebase](https://github.com/covid19cz/erouska-firebase) GitHub repository
+  * [erouska-homepage](https://github.com/covid19cz/erouska-homepage) GitHub repository
+
 
 ## Inmuni App
 
