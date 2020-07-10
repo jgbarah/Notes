@@ -4,6 +4,7 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 
 * [AarogyaSetu](#aarogyasetu) (India)
 * [CoronaWarnApp](#coronawarnapp) (Germany)
+* [COVID Tracker Ireland](#covidtrackerireland) (Ireland)
 * [eRouška](#erouska) (Czech Republic)
 * [Hamagen](#hamagen) (Israel)
 * [Inmuni App](#inmuniapp) (Italy)
@@ -33,6 +34,18 @@ Officially recommended in Germany.
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1545).
 * Development repositories:
   * [corona-warn-app](https://github.com/corona-warn-app) GitHub organization
+
+## <a name="covidtrackerireland">COVID Tracker Ireland</a>
+
+Officially recommended in Ireland.
+
+* [Web site](https://covidtracker.gov.ie/).
+* Android and iOS apps, and server.
+* License: MIT.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1766).
+* Development repositories:
+  * [HSEIreland](https://github.com/HSEIreland) GitHub organization
+
 
 ## <a name="erouska">eRouška</a>
 
