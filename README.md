@@ -17,7 +17,7 @@ ElasticSearch, Kibana...:
 Related to other random tools & services:
 
 * [Tools and tricks](tools-and-tricks.md)
-* [JavaScript](avascript.md)
+* [JavaScript](javascript.md)
 * [Python](python.md)
 * [Available options (Internet-related applications and services)](options.md)
 * [FOSS tools useful for distance learning](foss-distance-learning.md) [[Spanish](foss-distance-learning-es.md)]
