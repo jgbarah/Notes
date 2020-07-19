@@ -14,6 +14,8 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 * [Stop Covid](#stopcovid) (France)
 * [Stopp Corona App](#stoppcoronaapp) (Austria)
 
+[Twitter thread](https://threadreaderapp.com/thread/1284889647584337920.html) with some details about the development history of these tools.
+
 ## <a name="aarogyasetu">AarogyaSetu</a>
 
 Officially recommended in India (notice: maybe this code does not correspond to the apps being distributed).
