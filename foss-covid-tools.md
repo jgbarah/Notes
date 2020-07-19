@@ -3,6 +3,7 @@
 List of tools for COVID contact tracing tools which are in whole, or in part, distributed as free, open source software.
 
 * [AarogyaSetu](#aarogyasetu) (India)
+* [CoronaMelder](#coronamelder) (Netherlands)
 * [CoronaWarnApp](#coronawarnapp) (Germany)
 * [COVID Tracker Ireland](#covidtrackerireland) (Ireland)
 * [eRouška](#erouska) (Czech Republic)
@@ -23,6 +24,17 @@ Officially recommended in India
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1560).
 * Development repositories:
   * [nic-delhi/AarogyaSetu_Android](https://github.com/nic-delhi/AarogyaSetu_Android) GitHub repostory
+
+## <a name="coronamelder">CoronaMelder</a>
+
+Officially recommended in Netherlands
+
+* [Web site](https://minvws.github.io/nl-covid19-notification-app-community-website/).
+* Android and iOS app, and server.
+* License: EUPL/1.2 and other.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1816).
+* Development repositories:
+  * [minvws](https://github.com/minvws) GitHub repostory
 
 ## <a name="coronawarnapp">CoronaWarnApp</a>
 
