@@ -6,6 +6,7 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 * [CoronaMelder](#coronamelder) (Netherlands)
 * [CoronaWarnApp](#coronawarnapp) (Germany)
 * [COVID Tracker Ireland](#covidtrackerireland) (Ireland)
+* [DP-3T](#dp3t) (Switzerland)
 * [eRouška](#erouska) (Czech Republic)
 * [Hamagen](#hamagen) (Israel)
 * [Inmuni App](#inmuniapp) (Italy)
@@ -61,6 +62,18 @@ Officially recommended in Ireland.
 * Development repositories:
   * [HSEIreland](https://github.com/HSEIreland) GitHub organization
 
+* [DP-3T](#dp3t) (Switzerland)
+
+## <a name="dp3t">DP-3T</a>
+
+Officially recommended in Switzerland, and origin and inspiration for many others.
+
+* [Web site](https://github.com/DP-3T/documents/blob/master/README.md).
+* Android and iOS apps, and server.
+* License: MPL-2.0.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1818).
+* Development repositories:
+  * [DP-3T](https://github.com/DP-3T) GitHub organization
 
 ## <a name="erouska">eRouška</a>
 
