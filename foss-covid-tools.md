@@ -16,7 +16,7 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 
 ## <a name="aarogyasetu">AarogyaSetu</a>
 
-Officially recommended in India
+Officially recommended in India (notice: maybe this code does not correspond to the apps being distributed).
 
 * [Web site](https://www.aarogyasetu.gov.in/).
 * Android app.
@@ -111,7 +111,7 @@ Officially recommended in UK.
 
 ## <a name="opentrace">OpenTrace</a>
 
-Reference implementation of TraceTogether, recommended in Singapore.
+Reference implementation of TraceTogether, recommended in Singapore (notice: this code does not correspond to the apps being distributed as TraceTogether).
 
 * [Web site](https://www.tech.gov.sg/media/technews/six-things-about-opentrace).
 * Android and iOS apps, and server.
