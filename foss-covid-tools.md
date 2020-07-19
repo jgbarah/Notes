@@ -12,6 +12,7 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 * [Inmuni App](#inmuniapp) (Italy)
 * [NHS COVID-19 App](#nhscovidapp) (UK)
 * [OpenTrace](#opentrace) (Singapore)
+* [ProteGo Safe](#protego)
 * [Rakning C-19](#rakning) (Iceland)
 * [Stop Covid](#stopcovid) (France)
 * [Stopp Corona App](#stoppcoronaapp) (Austria)
@@ -135,6 +136,17 @@ Reference implementation of TraceTogether, recommended in Singapore (notice: thi
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1566).
 * Development repositories:
   * [opentrace-community](https://github.com/opentrace-community) GitHub organization
+
+## <a name="protego">ProteGo Safe</a>
+
+Officially recommended in Poland.
+
+* [Web site](https://www.gov.pl/web/protegosafe).
+* Android and iOS apps, and server.
+* License: GPL-3.0.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1827).
+* Development repositories:
+  * [ProteGO-Safe](https://github.com/ProteGO-Safe) GitHub organization
 
 ## <a name="rakning">Rakning C-19</a>
 
