@@ -3,6 +3,7 @@
 List of tools for COVID contact tracing tools which are in whole, or in part, distributed as free, open source software.
 
 * [AarogyaSetu](#aarogyasetu) (India)
+* [Apturi COVID](#apturi) (Latvia)
 * [CoronaMelder](#coronamelder) (Netherlands)
 * [CoronaWarnApp](#coronawarnapp) (Germany)
 * [COVID Tracker Ireland](#covidtrackerireland) (Ireland)
@@ -30,16 +31,28 @@ Officially recommended in India (notice: maybe this code does not correspond to 
 * Development repositories:
   * [nic-delhi/AarogyaSetu_Android](https://github.com/nic-delhi/AarogyaSetu_Android) GitHub repostory
 
+## <a name="apturi">Apturi COVID</a>
+
+Officially recommended in Latvia.
+
+* [Web site](https://apturicovid.lv/).
+* Android and iOS app.
+* License: CC-by-sa 4.0 International
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1832).
+* Development repositories:
+  * [ApturiCOVID](https://github.com/ApturiCOVID) GitHub organization.
+  
+
 ## <a name="coronamelder">CoronaMelder</a>
 
-Officially recommended in Netherlands
+Officially recommended in Netherlands.
 
 * [Web site](https://minvws.github.io/nl-covid19-notification-app-community-website/).
 * Android and iOS app, and server.
 * License: EUPL/1.2 and other.
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1816).
 * Development repositories:
-  * [minvws](https://github.com/minvws) GitHub repostory
+  * [minvws](https://github.com/minvws) GitHub organization
 
 ## <a name="coronawarnapp">CoronaWarnApp</a>
 
