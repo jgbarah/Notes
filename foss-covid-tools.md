@@ -14,6 +14,7 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 * [NHS COVID-19 App](#nhscovidapp) (UK)
 * [OpenTrace](#opentrace) (Singapore)
 * [ProteGo Safe](#protego)
+* [Radar COVID](#radar) (Spain)
 * [Rakning C-19](#rakning) (Iceland)
 * [Stop Covid](#stopcovid) (France)
 * [Stopp Corona App](#stoppcoronaapp) (Austria)
@@ -160,6 +161,17 @@ Officially recommended in Poland.
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1827).
 * Development repositories:
   * [ProteGO-Safe](https://github.com/ProteGO-Safe) GitHub organization
+
+## <a name="radar">Radar COVID</a>
+
+Officially recommended in Spain.
+
+* [Web site](https://www.mineco.gob.es/portal/site/mineco/menuitem.ac30f9268750bd56a0b0240e026041a0/?vgnextoid=359f50a4c34b3710VgnVCM1000001d04140aRCRD&vgnextchannel=864e154527515310VgnVCM1000001d04140aRCRD).
+* Android and iOS apps, and server.
+* License: MPL-2.0.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/2135)
+* Development repositories:
+  * [RadarCOVID](https://github.com/RadarCOVID/) GitHub organization
 
 ## <a name="rakning">Rakning C-19</a>
 
