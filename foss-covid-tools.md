@@ -11,6 +11,7 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 * [eRouška](#erouska) (Czech Republic)
 * [Hamagen](#hamagen) (Israel)
 * [Inmuni App](#inmuniapp) (Italy)
+* [Koronavilkku](#koronavilkku) (Findland)
 * [NHS COVID-19 App](#nhscovidapp) (UK)
 * [OpenTrace](#opentrace) (Singapore)
 * [ProteGo Safe](#protego)
@@ -127,6 +128,20 @@ Officially recommended in Italy.
 * Development repositories:
   * [immuni-app](https://github.com/immuni-app/) GitHub organization
 
+
+## <a name="koronavilkku">Koronavilkku</a>
+
+Officially recommended in Findland.
+
+* [Web site](https://thl.fi/en/web/infectious-diseases-and-vaccinations/what-s-new/coronavirus-covid-19-latest-updates/transmission-and-protection-coronavirus/contact-tracing-app-will-help-stop-chains-of-infection).
+* Android and iOS app, and server.
+* License: EUPL-1.2.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/2163).
+* Development repositories:
+  * [THLfi/koronavilkku-android](https://github.com/THLfi/koronavilkku-android) GitHub repository
+  * [THLfi/koronavilkku-ios](https://github.com/THLfi/koronavilkku-ios) GitHub repository
+  * [THLfi/koronavilkku-backend](https://github.com/THLfi/koronavilkku-backend) GitHub repository
+  
 ## <a name="nhscovidapp">NHS COVID-19 App</a>
 
 Officially recommended in UK.
