@@ -4,12 +4,15 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 
 * [AarogyaSetu](#aarogyasetu) (India)
 * [Apturi COVID](#apturi) (Latvia)
+* [ASI](#asi) (Ecuador)
 * [CoronaMelder](#coronamelder) (Netherlands)
 * [CoronaWarnApp](#coronawarnapp) (Germany)
+* [COVID Alert](#covidalert) (Canada)
 * [COVID Tracker Ireland](#covidtrackerireland) (Ireland)
 * [DP-3T](#dp3t) (Switzerland)
 * [eRouška](#erouska) (Czech Republic)
 * [Hamagen](#hamagen) (Israel)
+* [HOIA](#hoia) (Estonia)
 * [Inmuni App](#inmuniapp) (Italy)
 * [Koronavilkku](#koronavilkku) (Findland)
 * [NHS COVID-19 App](#nhscovidapp) (UK)
@@ -17,6 +20,7 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 * [ProteGo Safe](#protego)
 * [Radar COVID](#radar) (Spain)
 * [Rakning C-19](#rakning) (Iceland)
+* [StayAway COVID](#stayaway) (Portugal)
 * [Stop Covid](#stopcovid) (France)
 * [Stopp Corona App](#stoppcoronaapp) (Austria)
 
@@ -43,7 +47,18 @@ Officially recommended in Latvia.
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1832).
 * Development repositories:
   * [ApturiCOVID](https://github.com/ApturiCOVID) GitHub organization.
-  
+
+
+## <a name="asi">Asi</a>
+
+Officially recommended in Ecuador.
+
+* [Web site](https://asiecuador.com/).
+* Android and iOS app, and server.
+* License: MPL-2.0.
+* Development repositories:
+  * [ASI Ecuador](https://minka.gob.ec/asi-ecuador) Repositorio Nacional de Software Público GitLab organization.
+
 
 ## <a name="coronamelder">CoronaMelder</a>
 
@@ -56,6 +71,7 @@ Officially recommended in Netherlands.
 * Development repositories:
   * [minvws](https://github.com/minvws) GitHub organization
 
+
 ## <a name="coronawarnapp">CoronaWarnApp</a>
 
 Officially recommended in Germany.
@@ -66,6 +82,26 @@ Officially recommended in Germany.
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1545).
 * Development repositories:
   * [corona-warn-app](https://github.com/corona-warn-app) GitHub organization
+
+
+## <a name="covidalert">COVID Alert</a>
+
+Officially recommended in Canada.
+
+* [Web site](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html).
+* [Article in Wikipedia](https://en.wikipedia.org/wiki/COVID_Alert).
+* Android and iOS apps, and server.
+* License: Apache-2.0.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1766).
+* Development repositories:
+  * [cds-snc/covid-alert-app](https://cds-snc/covid-alert-app) GitHub repository
+  * [cds-snc/covid-alert-server](https://cds-snc/covid-alert-server) GitHub repository
+  * [cds-snc/covid-alert-server-staging-terraform](https://cds-snc/covid-alert-server-staging-terraform) GitHub repository
+  * [cds-snc/covid-alert-server-demo-terraform](https://cds-snc/covid-alert-server-demo-terraform) GitHub repository
+  * [cds-snc/covid-alert-portal](https://cds-snc/covid-alert-portal) GitHub repository
+  * [cds-snc/covid-alert-documentation](https://cds-snc/covid-alert-documentation) GitHub repository
+  * [cds-snc/covid-alert](https://cds-snc/covid-alert) GitHub repository
+
 
 ## <a name="covidtrackerireland">COVID Tracker Ireland</a>
 
@@ -116,6 +152,17 @@ Officially recommended in Israel.
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1578).
 * Development repositories:
   * [MohGovIL/hamagen-react-native](https://github.com/MohGovIL/hamagen-react-native) GitHub repository.
+
+## <a name="hoia">Hoia</a>
+
+Officially recommended in Estonia.
+
+* [Web site](https://hoia.me/en/).
+* Android and iOS app, and server.
+* License: MPL-2.0.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/1578).
+* Development repositories:
+  * [TEHIK/hoia](https://koodivaramu.eesti.ee/tehik/hoia) Koodivaramu GitLab project.
 
 ## <a name="inmuniapp">Inmuni App</a>
 
@@ -198,6 +245,17 @@ Officially recommended in Iceland.
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1817)
 * Development repositories:
   * [aranja/rakning-c19-app](https://github.com/aranja/rakning-c19-app) GitHub repository
+
+## <a name="stayaway">StayAway COVID</a>
+
+Officially recommended in Portugal.
+
+* [Web site](https://stayawaycovid.pt/).
+* Android and iOS apps, and server.
+* License: EUPL-1.2.
+* [Development data in Cauldron.io](https://cauldron.io/dashboard/2305)
+* Development repositories:
+  * [stayawayinesctec](https://github.com/stayawayinesctec) GitHub organization
 
 ## <a name="stopcovid">Stop Covid</a>
 
