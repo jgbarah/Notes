@@ -194,10 +194,14 @@ Officially recommended in Finland.
 Officially recommended in UK.
 
 * [Web site](https://www.covid19.nhs.uk/).
-* Android and iOS apps.
+* Android and iOS apps, and server.
 * License: MIT.
 * [Development data in Cauldron.io](https://cauldron.io/dashboard/1565).
 * Development repositories:
+  * [nhsx/covid-19-app-android-ag-public](https://github.com/nhsx/covid-19-app-android-ag-public) GitHub repository
+  * [nhsx/covid19-app-system-public](https://github.com/nhsx/covid19-app-system-public) GitHub repository
+  * [nhsx/covid-19-app-ios-ag-public](https://github.com/nhsx/covid-19-app-ios-ag-public) GitHub repository
+  * [nhsx/covid-19-app-configuration-public](https://github.com/nhsx/covid-19-app-configuration-public) GitHub repository
   * [nhsx/COVID-19-app-Documentation-BETA](https://github.com/nhsx/COVID-19-app-Documentation-BETA) GitHub repository
   * [nhsx/COVID-19-app-iOS-BETA](https://github.com/nhsx/COVID-19-app-iOS-BETA) GitHub repository
   * [nhsx/COVID-19-app-Android-BETA](https://github.com/nhsx/COVID-19-app-Android-BETA) GitHub repository
