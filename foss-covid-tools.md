@@ -14,7 +14,7 @@ List of tools for COVID contact tracing tools which are in whole, or in part, di
 * [Hamagen](#hamagen) (Israel)
 * [HOIA](#hoia) (Estonia)
 * [Inmuni App](#inmuniapp) (Italy)
-* [Koronavilkku](#koronavilkku) (Findland)
+* [Koronavilkku](#koronavilkku) (Finland)
 * [NHS COVID-19 App](#nhscovidapp) (UK)
 * [OpenTrace](#opentrace) (Singapore)
 * [ProteGo Safe](#protego)
@@ -178,7 +178,7 @@ Officially recommended in Italy.
 
 ## <a name="koronavilkku">Koronavilkku</a>
 
-Officially recommended in Findland.
+Officially recommended in Finland.
 
 * [Web site](https://thl.fi/en/web/infectious-diseases-and-vaccinations/what-s-new/coronavirus-covid-19-latest-updates/transmission-and-protection-coronavirus/contact-tracing-app-will-help-stop-chains-of-infection).
 * Android and iOS app, and server.
