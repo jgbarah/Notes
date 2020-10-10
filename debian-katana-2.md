@@ -167,6 +167,7 @@ and `-38.ucode`, in package firmware-iwlwifi).
 
 I think my only chance is, for now, to wait until 4.20 is in Debian...
 
+
 #### Further notes on this issue
 
 Maybe I'm having some other problem. The trace I get with dmesg is
@@ -207,3 +208,23 @@ sudo dmesg | grep restart
 ```
 
 If no new line appears, this problem is now showing up.
+
+**Note from my future self:** Now, well above 4.20, I've never experienced these problems again.
+
+## Improving microphone sound (removing some background noise)
+
+The background noise I hear when speaking to the microphone can be removed (in part) by activating the ALSA echo cacelling module. I follow these [instructions](https://marcosmarti.org/como-eliminar-el-ruido-de-fondo-de-un-microfono-en-linux/).
+
+First, edit `/etc/pulse/default.pa`, adding at the end of the file:
+
+```
+load-module module-echo-cancel source_name=noiseless
+...
+set-default-source noiseless
+```
+
+To activate the new configuration:
+
+```
+$ pulseaudio -k
+```
