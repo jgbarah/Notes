@@ -133,8 +133,27 @@ Then, just enable it:
 % sudo systemctl enable suspend-sedation
 ```
 
+## Improving microphone sound (removing some background noise)
 
-## Pending issues
+The background noise I hear when speaking to the microphone can be removed (in part) by activating the ALSA echo cacelling module. I follow these [instructions](https://marcosmarti.org/como-eliminar-el-ruido-de-fondo-de-un-microfono-en-linux/).
+
+First, edit `/etc/pulse/default.pa`, adding at the end of the file:
+
+```
+load-module module-echo-cancel source_name=noiseless
+...
+set-default-source noiseless
+```
+
+To activate the new configuration:
+
+```
+$ pulseaudio -k
+```
+
+## No longer pending issues
+
+This issues were a problem, but got solved just by upgrading to new versions of Debian over time.
 
 ### 2019-05-15
 
@@ -211,20 +230,3 @@ If no new line appears, this problem is now showing up.
 
 **Note from my future self:** Now, well above 4.20, I've never experienced these problems again.
 
-## Improving microphone sound (removing some background noise)
-
-The background noise I hear when speaking to the microphone can be removed (in part) by activating the ALSA echo cacelling module. I follow these [instructions](https://marcosmarti.org/como-eliminar-el-ruido-de-fondo-de-un-microfono-en-linux/).
-
-First, edit `/etc/pulse/default.pa`, adding at the end of the file:
-
-```
-load-module module-echo-cancel source_name=noiseless
-...
-set-default-source noiseless
-```
-
-To activate the new configuration:
-
-```
-$ pulseaudio -k
-```
