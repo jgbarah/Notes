@@ -2,6 +2,17 @@
 
 Living in Debian testing is awesome, but has its issues as well...
 
+## Installing node.js
+
+2020-12-27
+
+The version of node.js in Debian testing is a bit oldie for my taste, so I'm going to install from [newer versions maintained by NodeSource](https://github.com/nodesource/distributions/blob/master/README.md). Instructions are easy (for node 15.x):
+
+```
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+sudo apt-get install -y nodejs
+```
+
 ## Fixing Gnome keyring so that it doesn't provide ssh-agent functionality
 
 When using my RSA key to ssh a remote machine, I got an error:

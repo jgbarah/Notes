@@ -135,12 +135,13 @@ Then, just enable it:
 
 ## Improving microphone sound (removing some background noise)
 
-The background noise I hear when speaking to the microphone can be removed (in part) by activating the ALSA echo cacelling module. I follow these [instructions](https://marcosmarti.org/como-eliminar-el-ruido-de-fondo-de-un-microfono-en-linux/).
+The background noise I hear when speaking to the microphone can be removed (in part) by activating the ALSA echo cacelling module. I follow these [instructions](https://marcosmarti.org/como-eliminar-el-ruido-de-fondo-de-un-microfono-en-linux/), and (in part) [these recommendations](http://forums.debian.net/viewtopic.php?f=16&t=128306).
 
 First, edit `/etc/pulse/default.pa`, adding at the end of the file:
 
 ```
-load-module module-echo-cancel source_name=noiseless
+#load-module module-echo-cancel source_name=noiseless aec_method=webrtc aec_args="analog_gain_control=0\ digital_gain_control=0"
+load-module module-echo-cancel source_name=noiseless aec_method=webrtc
 ...
 set-default-source noiseless
 ```
