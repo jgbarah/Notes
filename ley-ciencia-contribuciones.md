@@ -25,6 +25,8 @@ Sólo a modo de ejemplo se citan a continuación algunos documentos que reconoce
 
 * [Open Source Software Strategy](https://ec.europa.eu/info/departments/informatics/open-source-software-strategy_en) de la Comisión Europea (2020-2023): expresa la importancia del software en el contexto (entre otros) de la soberanía digital, y la transferencia de resultados relacionados con la innovación, y propone el software libre como una opción fundamental en estos y otros ámbitos.
 
+* [Free and Open Source Software (UNESCO)](https://en.unesco.org/freeandopensourcesoftware): UNESCO reconoce que el software juega un papel fundamental en el acceso a la información y al conocimiento, y en particular que el software libre tiene características que lo hacen especialmente apropiado para la creación y la compartición de conocimiento.
+
 * [Open-Source Science Initiative](https://science.nasa.gov/open-science-overview): explica el importante papel del software para conseguir (entre otras mejoras al proceso científico) resultados científicos reproducibles y cómo para garantizarlo es preciso que ese software sea libre.
 
 * [Open Science is a Research Accelerator](https://www.nature.com/articles/nchem.1149), publicado en Nature: incluye una de las primeras definiciones de ciencia abierta, y explica el papel fundamental del software libre en ella.
@@ -78,7 +80,7 @@ Artículo 39.2. Página 59.
 
 **Comentario:** El software libre es una forma eficiente de promover el acceso a la cultura científica y de la innovación a personas y organizaciones, y tiene mecanismos muy interesantes para fomentar la participación en su desarrollo. Convendría por lo tanto fomentar de forma específica esta forma de promoción de acceso a la cultura de la innovación, y quizás extenderlo a otros movimientos, como el del hardware libre.
 
-En particular, en el Apartado f, _"Proteger el patrimonio científico y tecnológico histórico"_, sería conveniente mencionar específicamente el patrimonio tecnológico constituido por todo el software libre que ha sido publicado. Podría hacerse en un apartado específico. Por ejemplo: _Apartado x: "Proteger el patrimonio científico y tecnológico que constituye todo el software libre publicado"_.
+En particular, en el Apartado f, _"Proteger el patrimonio científico y tecnológico histórico"_, sería conveniente mencionar específicamente el patrimonio tecnológico constituido por todo el software libre que ha sido publicado. Podría hacerse en un apartado específico. Por ejemplo: _Apartado x: "Proteger el patrimonio científico y tecnológico que constituye todo el software libre publicado"_. Este patrimonio ha sido reconocido como tal por UNESCO, que menciona al código fuente disponible públicamente como "Parte de nuestro patrimonio, pilar de nuestro presente, posibilitador de nuestro futuro" ([Paris Call on Software Source Code as Heritage for Sustainable Development](https://unesdoc.unesco.org/ark:/48223/pf0000366715.locale=es)).
 
 
 ## Plan estatal
@@ -93,7 +95,16 @@ También se puede mencionar especifícamele el software libre cuando se dice _"L
 
 En general, se pueden mencionar el software libre como una herramienta específica en casi todos los párrafos de este artículo.
 
+Mencionar específicamente la creación y mantenimiento de software libre y datos abiertos como metas del Plan Nacional proporciona por un lado señales claras en la línea de lo que reconocido internacionalmente como prácticas de ciencia abierta. Pero por otro, aporta también indicaciones específicas que pueden traducirse en requisitos y recomendaciones, y también en indicadores que permitan el seguimiento de la adopción de prácticas de ciencia abierta en el sistema científico-tecnológico y de innovación españoles. Así mismo, sería conveniente considerar la infraestructura y los programas necesarios para apoyar estas acciones igual que se están considerando ya otras acciones relacionadas, como los archivos de publicación en acceso abierto.
 
+
+# Reconocimiento curricular
+
+Ni en la redacción actual de la Ley de la Ciencia, ni en el Anteproyecto que nos ocupa, se mencionan específicamente indicadores relacionados con la producción o la colaboración en el mantenimiento de software libre como elementos que puedan considerarse en la evaluación curricular de los investigadores, ni de las instituciones en que trabajan. Sin embargo, es bien reconocido, por un lado, que el software libre puede, en muchos casos, ser una infraestructura fundamental para el desarrollo de campos científicos, y una plataforma neutra que ayuda en la reproducibilidad de los resultados, que rebaja las barreras de entrada para nuevos investigadores, y que en general ayuda a la más rápida y mejor difusión y transferencia de resultados. Por otro lado, algunos indicadores (como los basados en patentes explotadas) no sólo no contempla la producción y el mantenimiento de software libre, sino que puede ser incompatible con él.
+
+Por todo esto, parece imprescindible enviar las señales adecuadas a los investigadores, y reconocer el trabajo, a veces oscuro pero fundamental, de los que dedican parte de su tiempo, de su energía y de su conocimiento a mantener y ampliar el bien común para el desarrollo de la ciencia que constituye el software libre necesario para su desarrollo.
+
+Este reconocimiento podría estructurarse en un artículo específico, en el que se podría reconocer, además, de forma también específica, la producción de datos abiertos significativos, que constituyen otro de los pilares de la ciencia abierta.
 
 
 
