@@ -9,6 +9,7 @@ Firmantes:
 * Antonio Araúzo Azofra, Universidad de Córdoba
 * Marc Bria Ramírez, Universitat Autònoma de Barcelona
 * Ángel Bailo García, Universidad de Zaragoza
+* Jesús Tramullas Saz, Universidad de Zaragoza
 
 # Contexto y antecedentes
 
