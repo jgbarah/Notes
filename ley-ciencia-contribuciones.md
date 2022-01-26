@@ -11,6 +11,8 @@ Firmantes:
 * Ángel Bailo García, Universidad de Zaragoza
 * Jesús Tramullas Saz, Universidad de Zaragoza
 
+Contribucion realizada el 26 de enero de 2022.
+
 # Contexto y antecedentes
 
 El anteproyecto objeto de esta contribución presenta (entre otros) cambios a la ley de la Ciencia, la Tecnología y la Innovación que avanzan la adopción y promoción de prácticas de ciencia abierta (_open science_) en el sistema de ciencia y tecnología español. Las presentes contribuciones pretenden hacer más efectivos estos cambios, teniendo en cuenta el papel fundamental del software en los procesos de producción científica. Este papel, ampliamente reconocido por los agentes implicados, es muy amplio: por un lado, es fundamental para la producción de muchos resultados científicos y técnicos; por otro es facilitador en muchos procesos tecnológicos y de innovación; y por otro, permite acciones de transferencia que se ven muy mermados sin su participación. Por ello, el que el software sea contemplado de forma específica es de gran importancia para que las prácticas de ciencia abierta sean adoptadas de forma específica, y la comunidad investigadora, los agentes productivos, y la sociedad en general, se beneficien adecuadamente de ella.
