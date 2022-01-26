@@ -7,7 +7,7 @@ Firmantes:
 
 * Jesús M. González Barahona, Catedrático de Ingeniería Telemática, Universidad Rey Juan Carlos, jgb@gsyc.es
 * Antonio Araúzo Azofra, Universidad de Córdoba
-
+* Marc Bria Ramírez, Universitat Autònoma de Barcelona
 
 # Contexto y antecedentes
 
