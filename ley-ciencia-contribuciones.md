@@ -9,6 +9,7 @@ Firmantes:
 * Antonio Araúzo Azofra, Universidad de Córdoba
 * Marc Bria Ramírez, Universitat Autònoma de Barcelona
 * Ángel Bailo García, Universidad de Zaragoza
+* Pablo García Sánchez, Universidad de Granada
 * Jesús Tramullas Saz, Universidad de Zaragoza
 
 Contribucion realizada el 26 de enero de 2022.
