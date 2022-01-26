@@ -10,6 +10,7 @@ Firmantes:
 * Marc Bria Ramírez, Universitat Autònoma de Barcelona
 * Ángel Bailo García, Universidad de Zaragoza
 * Pablo García Sánchez, Universidad de Granada
+* Manuel Palomo Duarte, Universidad de Cádiz
 * Jesús Tramullas Saz, Universidad de Zaragoza
 
 Contribucion realizada el 26 de enero de 2022.
