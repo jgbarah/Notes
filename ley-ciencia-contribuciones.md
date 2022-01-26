@@ -5,9 +5,10 @@ Contribución al Proceso de Participación Pública, con respecto al
 
 Firmantes:
 
-* Jesús M. González Barahona, Catedrático de Ingeniería Telemática, Universidad Rey Juan Carlos, jgb@gsyc.es
+* Jesús M. González Barahona, Universidad Rey Juan Carlos, jgb @ gsyc.es
 * Antonio Araúzo Azofra, Universidad de Córdoba
 * Marc Bria Ramírez, Universitat Autònoma de Barcelona
+* Ángel Bailo García, Universidad de Zaragoza
 
 # Contexto y antecedentes
 
