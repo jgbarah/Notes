@@ -3,10 +3,10 @@ Contribución al Proceso de Participación Pública, con respecto al
 
 [Anteproyecto de ley de modificación de la Ley 14/2011, de 1 de junio, de la Ciencia, la Tecnología y la Innovación](https://www.ciencia.gob.es/Convocatorias/Participacion-Publica/Audiencia-e-informacion-publica/Audiencia-e-informacion-publica-sobre-el-anteproyecto-de-ley-de-modificacion-de-la-Ley-14-2011-de-1-de-junio-de-la-Ciencia-la-Tecnologia-y-la-Innovacion.html)
 
-Autor: Jesús M. González Barahona
-       Catedrático de Ingeniería Telemática
-       Universidad Rey Juan Carlos
-       jgb@gsyc.es
+Firmantes:
+
+* Jesús M. González Barahona, Catedrático de Ingeniería Telemática, Universidad Rey Juan Carlos, jgb@gsyc.es
+* Antonio Araúzo Azofra, Universidad de Córdoba
 
 
 # Contexto y antecedentes
