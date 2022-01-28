@@ -24,3 +24,7 @@ Related to other random tools & services:
 * [FOSS tools for COVID tracing](foss-covid-tools.md)
 * [Impresión 3D en relación con la epidemia de coronavirus](coronavirus-impresion-es) [Spanish]
 * [Oculus Quest](oculus-quest.md)
+
+Other, even more random stuff:
+
+* [Contributions to the proposal for a new Spanish Law for Science](ley-ciencia-contribuciones.md) (Spanish)
