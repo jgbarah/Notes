@@ -2,6 +2,7 @@
 
 Related to Debian:
 
+* [Installing Debian testing (bookworm) in a Slimbook Executive](debian-executive.md)
 * [Installing Debian testing (buster) in a Slimbook Katana II](debian-katana-2.md)
 * [Installing and managing Freedom Box](freedombox.md)
 * [Life in Debian testing](life-in-testing.md)
