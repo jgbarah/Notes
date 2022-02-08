@@ -58,11 +58,11 @@ _Artículo 35 bis_. Página 50.
 
 ## Inversión pública en innovación a disposición de la sociedad
 
-_Artículo 36 sexies_. Página 57.
+_Artículo 36 bis. Página 57.
 
-**Comentario:** En el contexto de la compra pública de innovación, sería conveniente incluir un complemento (quizás estructurado como un Artículo 36 septies) en el que se mencione específicamente cómo se puede realizar inversión en innovación que quede a disposición de la sociedad mediante la creación, el mantenimiento y la colaboración en el mantenimiento de software libre posibilitador, que investigadores, industria y administraciones públicas puedan utilizar. Estas prácticas han sido ampliamente probadas en muchas comunidades de desarrollo de software libre, tanto relacionadas con la investigación y la innovación como en otros contextos tecnológicos, y han sido experimentadas ampliamente por empresas, incluyendo la contratación de miembros de esas comunidades, la dedicación de personal específico para que colabore en ellas, o la aportación de recursos para que las comunidades puedan trabajar en mejores condiciones.
+**Comentario:** En el contexto de la compra pública de innovación, sería conveniente incluir un complemento (quizás estructurado como un Artículo 36 bis) en el que se mencione específicamente cómo se puede realizar inversión en innovación que quede a disposición de la sociedad mediante la creación, el mantenimiento y la colaboración en el mantenimiento de software libre posibilitador, que investigadores, industria y administraciones públicas puedan utilizar. Estas prácticas han sido ampliamente probadas en muchas comunidades de desarrollo de software libre, tanto relacionadas con la investigación y la innovación como en otros contextos tecnológicos, y han sido experimentadas ampliamente por empresas, incluyendo la contratación de miembros de esas comunidades, la dedicación de personal específico para que colabore en ellas, o la aportación de recursos para que las comunidades puedan trabajar en mejores condiciones.
 
-Alternativamente a la estructuración como un Articulo 36 septies, se podrían ampliar los casos que se incluyen en el Artículo 36 sexies para que contemple la inversión en comunidades de innovación con resultados libres (software libre, etc.)
+Alternativamente a la estructuración como un Articulo 36 bis, se podrían ampliar los casos que se incluyen en el Artículo 36 bis para que contemple la inversión en comunidades de innovación con resultados libres (software libre, etc.)
 
 
 ## Ciencia abierta
