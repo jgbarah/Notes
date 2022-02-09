@@ -12,6 +12,7 @@ Firmantes:
 * Pablo García Sánchez, Universidad de Granada
 * Manuel Palomo Duarte, Universidad de Cádiz
 * Jesús Tramullas Saz, Universidad de Zaragoza
+* Carlos González Morcillo, Universidad de Castilla-La Mancha
 
 Contribucion realizada el 26 de enero de 2022.
 
