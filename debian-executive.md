@@ -2,7 +2,7 @@
 
 Finally I have my [Slimbook Executive](https://slimbook.es/en/executive-en).
 I ordered it with Debian, but after receiving it, and testing that it
-seemed to work well with Debian 10.0, the version that had installed,
+seemed to work well with Debian 10.0 (the version it had installed),
 I decided to move to Debian testing, which is my usual system.
 When this happened, early February 2022, testing is bookworm.
 
