@@ -39,6 +39,8 @@ Then, run (as root) `update-grub`, and reboot. And no more spurious flickering.
 
 ## Install Slimbook applications
 
+[Maybe this is no longer needed. In particular, in Gnome 42 now I have a menu selecting between three performance mode, and some tweeks about performance for optimizing battery usage]
+
 There are some [Slimbook applications](https://slimbook.es/tutoriales/aplicaciones-slimbook) potentially interesting in a [Slimbook PPA](https://launchpad.net/~slimbook/+archive/ubuntu/slimbook). But it includes packages only for Ubuntu. I decide to get some of them, as source code, and rebuild them for Debian testing.
 
 First, I create a new APT file, `/etc/apt/sources.list.d/slimbook-ubuntu-slimbook-impish.list`:
@@ -175,3 +177,10 @@ HandleLidSwitch=suspend-then-hibernate
 
 Now, restart and it works!
 
+
+## Resetting the GNOME configuration
+
+```
+mkdir old-config
+mv .config/dconf/user old-config
+```
