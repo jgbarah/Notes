@@ -25,6 +25,7 @@ Related to other random tools & services:
 * [FOSS tools for COVID tracing](foss-covid-tools.md)
 * [Impresión 3D en relación con la epidemia de coronavirus](coronavirus-impresion-es) [Spanish]
 * [Oculus Quest](oculus-quest.md)
+* [Empezando con AppInventor](appinventor.md) (Spanish)
 
 Other, even more random stuff:
 
