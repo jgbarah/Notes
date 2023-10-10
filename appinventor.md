@@ -124,8 +124,9 @@ Ahora vamos a hacer la aplicación que estudiamos antes.
 
 ### Segunda pantalla: bloques
 
-* Hacemos un procedimiento: "MoverFantasma" ¿Que será? (foto)
-* FOTO
+* Hacemos un procedimiento: "MoverFantasma" ¿Que será?
+
+|[Bloques de MoverFantasma](appinventor-smashtheghost-screenshot.png)
 
 ### Tercera pantalla
 
