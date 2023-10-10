@@ -64,19 +64,6 @@ Veamos algunos ejemplos de aplicaciones, para empezar a jugar con AppInventor.
 * [Recursos necesarios](https://drive.google.com/drive/folders/1QzApJ88YJDxLtc
 AzFsboUAtVvZXR9Dur?usp=sharing)
 * [Videotutorial](https://www.youtube.com/watch?v=w9pY619xAVU&ab_channel=ObsidianSoft)
-* Veamos cómo está hecha:
-
-  * El programa contiene 3 grandes bloques en los que se hacen las mayorías de cosas
-  * Nos fijamos en la primera orden de cada grande bloque: ¿Qué podrían hacer?
-  * Tenemos el primer bloque: "ponerBonitoyReiniciarJuego"
-  * Segundo bloque: "cuando pulso cualquier botón --> ejecutar algo"
-  * Tercer bloque: "comprobarGanador --> ejecutar algo"
-  * Efectivamente, en estos tres sencillos pasos, se basa nuestra aplicación:
-
-    * Coloca los botones en su sitio y reinicia el juego.
-    * Cuando pulso un botón, le pone una "X" o una "O" dependiendo del jugador.
-    * Cada vez que pulso un botón, se comprueba si tenemos tres "O" o "X" seguidas, para ver si tenemos un ganador.
-    * En la comprobación del ganador también está incluida la funcionalidad del notificador (se muestra un mensaje en pantalla dependiendo de la situación).
 
 * Más videotutoriales que nos pueden ayudar con esta aplicación.
 
@@ -131,6 +118,21 @@ Ahora vamos a hacer la aplicación que estudiamos antes.
 ### Tercera pantalla
 
 Probad a hacer también una tercera pantalla, con el segundo temporizador que hemos creado, para que acabe la partida y la muestre.
+
+## Hagamos la aplicación TicTacToe
+
+* El programa contiene 3 grandes bloques en los que se hacen las mayorías de cosas
+* Nos fijamos en la primera orden de cada grande bloque: ¿Qué podrían hacer?
+* Tenemos el primer bloque: "ponerBonitoyReiniciarJuego"
+* Segundo bloque: "cuando pulso cualquier botón --> ejecutar algo"
+* Tercer bloque: "comprobarGanador --> ejecutar algo"
+* Efectivamente, en estos tres sencillos pasos, se basa nuestra aplicación:
+
+  * Coloca los botones en su sitio y reinicia el juego.
+  * Cuando pulso un botón, le pone una "X" o una "O" dependiendo del jugador.
+  * Cada vez que pulso un botón, se comprueba si tenemos tres "O" o "X" seguidas, para ver si tenemos un ganador.
+  * En la comprobación del ganador también está incluida la funcionalidad del notificador (se muestra un mensaje en pantalla dependiendo de la situación).
+
 
 ## Créditos
 
