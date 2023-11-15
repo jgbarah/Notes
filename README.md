@@ -30,3 +30,4 @@ Related to other random tools & services:
 Other, even more random stuff:
 
 * [Contributions to the proposal for a new Spanish Law for Science](ley-ciencia-contribuciones.md) (Spanish)
+* [Contributions to the draft of Sexennial Evaluation of Research (Sexenios), 2023](sexenios-comentarios-2023.md) (Spanish)
