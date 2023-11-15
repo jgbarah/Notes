@@ -1,6 +1,10 @@
 ## Comentarios al borrador de criterios de evaluación de sexenios de investigación
 
-En relación con la consulta pública sobre el "Borrador de criterios de evaluación de la Convocatoria 2023 de Sexenios de investigación", publicado por ANECA en noviembre de 2023, yo, Jesús M. González Barahona hago las consideraciones que se presentan a continuación.
+Consideraciones en relación con la consulta pública sobre el "Borrador de criterios de evaluación de la Convocatoria 2023 de Sexenios de investigación", publicado por ANECA en noviembre de 2023.
+
+Firmante: Jesús M. González Barahona
+
+Fecha: 16 de noviembre de 2023
 
 ### Consideraciones previas:
 
